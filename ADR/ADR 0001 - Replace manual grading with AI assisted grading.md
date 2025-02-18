@@ -2,7 +2,11 @@
 
 # Context
 
-There is an expected raise in the demand for architect certification. The forcasted numbers show that our current capability will soon be exhausted.
+There is an expected raise in the demand for architect certification as well as planned expansion to new markets. The forcasted numbers show that our current capability will soon be exhausted.
+The analysis showing that can be found [here](../Feasibility%20Analysis.xlsx).  
+
+![Expected throughput](ADR0001-throughput.png "Expected throughput")
+
 This lead us to explore the possibilities of utilizing LLM services for the purpose of shortening the required time to grade an exam.
 
 # Decision
@@ -11,7 +15,7 @@ We will extend the current manual grading step in both "Test 1" and "Test 2" sce
 Because of the fact, that LLM's do not produce 100% accurate results, we will use strategies that will reduce the chance of a test being graded incorrectly.
 The solution will work in the following manner:
 
-![AI assisted grading](ADR001-ai-assisted-grading.png "AI assisted grading")
+![AI assisted grading](ADR0001-ai-assisted-grading.png "AI assisted grading")
 
 # Consequences
 
