@@ -1,4 +1,4 @@
-# 0004 Aggregate Responses from Multiple Models
+# 0004 Aggregate responses from multiple models
 
 ## Context
 

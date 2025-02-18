@@ -1,4 +1,4 @@
-# 0008 AI-only Test Resolution
+# 0008 AI-only test resolution
 
 ## Context
 

@@ -1,4 +1,4 @@
-# 0006 AI Response Evaluation Process
+# 0006 AI response evaluation process
 
 ## Context
 

@@ -1,4 +1,4 @@
-# 0010 AI-assisted Pass Rate Analysis
+# 0010 AI-assisted pass rate analysis
 
 ## Status
 
@@ -14,11 +14,11 @@ We will extend our system with a new feature that uses AI to analyze the pass ra
 
 ## Consequences
 
-1. **Improved Quality**: The AI-based analysis will help identify and improve test questions that may not be performing as expected, ensuring a higher quality of assessments.
+1. **Improved Quality**: The AI-assisted analysis will help identify and improve test questions that may not be performing as expected, ensuring a higher quality of assessments.
 2. **Efficiency**: Automating the analysis process will save time and resources, allowing human reviewers to focus on more complex tasks.
 3. **Fairness**: By continuously monitoring and adjusting test questions based on pass rate data, we can ensure that our assessments are fair and unbiased.
 4. **Data-Driven Insights**: The AI will provide data-driven insights into the performance of test questions, helping to make informed decisions about modifications and improvements.
-5. **Scalability**: The AI-based analysis system can handle large volumes of data, making it scalable as the number of test questions and candidates increases.
+5. **Scalability**: The AI-assisted analysis system can handle large volumes of data, making it scalable as the number of test questions and candidates increases.
 
 By implementing this feature, we aim to enhance the overall effectiveness and fairness of our assessments through continuous, automated analysis and improvement of test questions.
 

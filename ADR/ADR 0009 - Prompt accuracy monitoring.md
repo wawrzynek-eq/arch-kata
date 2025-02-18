@@ -1,4 +1,4 @@
-# 0009 Prompt Accuracy Monitoring
+# 0009 Prompt accuracy monitoring
 
 ## Context
 

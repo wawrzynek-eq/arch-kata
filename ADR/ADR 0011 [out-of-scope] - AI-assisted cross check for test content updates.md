@@ -1,4 +1,4 @@
-# 0011 Cross-AI Verification For New Tests
+# 0011 AI-assisted cross check for test content updates
 
 ## Status
 

@@ -57,7 +57,7 @@
 - **Quality Attributes:** Continuous Improvement
 - **Trade-offs:** Adds complexity to the test verification process.
 
-### AI-based Pass Rate Analysis
+### AI-assisted Pass Rate Analysis
 - **Description:** Automate analysis of test questions and pass rates.
 - **Quality Attributes:** Continuous Improvement
 - **Trade-offs:** Integration with existing data analysis systems and potential cost inefficiencies.
@@ -76,7 +76,7 @@
 
 3. **Continuous Improvement:**
    - Prompt accuracy monitoring and AI response evaluation ensure continuous optimization.
-   - Cross-AI verification and AI-based pass rate analysis provide insights for improving test quality.
+   - Cross-AI verification and AI-assisted pass rate analysis provide insights for improving test quality.
 
 ### Cons
 1. **Increased Costs:**

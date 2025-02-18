@@ -1,4 +1,4 @@
-# 0007 Human Verification for AI Responses
+# 0007 Human verification for AI responses
 
 ## Context
 
