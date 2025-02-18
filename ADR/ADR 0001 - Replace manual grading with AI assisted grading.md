@@ -10,7 +10,8 @@ This lead us to explore the possibilities of utilizing LLM services for the purp
 We will extend the current manual grading step in both "Test 1" and "Test 2" scenarios. The system will still rely on human interaction to accept or review the score suggested by AI.
 Because of the fact, that LLM's do not produce 100% accurate results, we will use strategies that will reduce the chance of a test being graded incorrectly.
 The solution will work in the following manner:
-![AI assisted grading]("ADR001-ai-assisted-grading.png" "AI assisted grading")
+
+![AI assisted grading](ADR001-ai-assisted-grading.png "AI assisted grading")
 
 # Consequences
 
