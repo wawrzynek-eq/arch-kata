@@ -1,12 +1,14 @@
 # 0004 Aggregate Responses from Multiple Models
 
-# Context
+## Context
 
-Relying on a single AI model for grading can lead to inconsistent results and potential biases. To improve the reliability and accuracy of AI-aided grading, we need a strategy that leverages the strengths of multiple AI models.
+Relying on a single AI model for grading can lead to inconsistent results and potential biases. To improve the reliability and accuracy of AI-assisted grading, we need a strategy that leverages the strengths of multiple AI models.
 
-# Decision
+## Decision
 
 We will implement a system that aggregates responses from multiple AI models to determine the average response confidence level. This approach will help mitigate the weaknesses of individual models and provide a more robust and reliable grading system.
+
+## Justification
 
 Each question will be evaluated by multiple AI models, and their responses will be aggregated to calculate an average confidence level. This aggregated confidence level will then be used to make the final grading decision.
 
@@ -17,8 +19,8 @@ The process of aggregating responses from multiple AI models involves the follow
 3. The responses and confidence levels are aggregated to calculate an average response confidence level.
 4. The final grading decision is made based on the aggregated confidence level.
 
-This technique leverages the diversity of multiple AI models to provide a more accurate and reliable grading system. By combining the strengths of different models, we can achieve better performance and reduce the likelihood of incorrect grades.
+This technique leverages the diversity of multiple AI models to provide a more accurate and reliable grading system. By combining the strengths of different models, we can reduce the likelihood of incorrect grades.
 
-# Consequences
+## Consequences
 
 By using multiple AI models, we can reduce the impact of individual model biases and errors. Aggregating responses will provide a more balanced and accurate assessment of each question. This approach will also allow us to identify and address discrepancies between models, further improving the overall reliability of the grading system.
