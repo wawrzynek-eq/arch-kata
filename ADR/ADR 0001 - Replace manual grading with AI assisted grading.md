@@ -1,6 +1,6 @@
 # 0001 Replace manual grading with AI assisted grading
 
-# Context
+## Context
 
 There is an expected raise in the demand for architect certification as well as planned expansion to new markets. The forcasted numbers show that our current capability will soon be exhausted.
 The analysis showing that can be found [here](../Feasibility%20Analysis.xlsx).  
@@ -9,7 +9,7 @@ The analysis showing that can be found [here](../Feasibility%20Analysis.xlsx).
 
 This lead us to explore the possibilities of utilizing LLM services for the purpose of shortening the required time to grade an exam.
 
-# Decision
+## Decision
 
 We will extend the current manual grading step in both "Test 1" and "Test 2" scenarios. The system will still rely on human interaction to accept or review the score suggested by AI.
 Because of the fact, that LLM's do not produce 100% accurate results, we will use strategies that will reduce the chance of a test being graded incorrectly.
@@ -17,7 +17,7 @@ The solution will work in the following manner:
 
 ![AI assisted grading](ADR0001-ai-assisted-grading.png "AI assisted grading")
 
-# Consequences
+## Consequences
 
 With the aid of AI, we are going to signifficantly limit the time needed to grade both tests.
 We are purposely leaving human actions as required, because for the moment, the results of AI interaction have a significant uncertainty factor
