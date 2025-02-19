@@ -24,3 +24,5 @@ This technique leverages the diversity of multiple AI models to provide a more a
 ## Consequences
 
 By using multiple AI models, we can reduce the impact of individual model biases and errors. Aggregating responses will provide a more balanced and accurate assessment of each question. This approach will also allow us to identify and address discrepancies between models, further improving the overall reliability of the grading system.
+
+At the same time, we're increasing the cost of the service, but that is justifiable as a loss in credibility could be catastrophic to the core business.
