@@ -7,17 +7,16 @@ Following the decision to use AI in ADR 0001, we need to select which models/ser
 2. The AI needs to be able to respond to a question "on a scale of 1 to 100, how certain are you that your grade is correct?".
 
 A sample prompt producing the desired response could be:
-```
-Given the question:
-<test question>
-where the keywords are:
-<question dependent keywords>
-and the answer:
-<user submitted answer>
-produce a grade containing the following information:
-1. Score on a scale of 1 to 10, where 1 means the answer is incorrect and 10 means the answer is correct and mentiones all keywords
-2. Number on a scale o 0 to 100 which indicates how certain you are of your grade.
-```
+
+> Given the question:  
+> \<test question\>  
+> where the keywords are:  
+> \<question dependent keywords\>  
+> and the answer:  
+> \<user submitted answer\>  
+> produce a grade containing the following information:  
+> 1. Score on a scale of 1 to 10, where 1 means the answer is incorrect and 10 means the answer is correct and mentiones all keywords
+> 2. Number on a scale o 0 to 100 which indicates how certain you are of your grade.
 
 ## Decision
 
