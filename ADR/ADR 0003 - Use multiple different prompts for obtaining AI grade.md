@@ -12,10 +12,22 @@ The final result will be an average of all results.
 
 ## Technique Description
 
-1. **Multiple Prompt Generation**: For each question, generate multiple variations of the prompt to be sent to the LLM.
-2. **Response Collection**: Send each prompt variation to the LLM and collect the responses.
-3. **Coherence Verification**: Compare the responses to ensure they are coherent and consistent. If the responses are not consistent, flag the question for human review.
-4. **Final Grading**: Use the consistent responses to determine the final grade for the question.
+1. **Multiple Prompt Generation**: For each question, generate multiple variations of the prompt to be sent to the LLM. This could incorporate changing the sequence of question/answer (LLMs tend to favor the last given information), rephrasing the prompt or using personas
+  - Example 1:  
+    > On a scale of 0 to 10, grade the following answer: <submitted answer> to the question: <question>
+
+    vs
+
+    > For the question: <question> grade the following answer: <submitted answer> on a scale of 0 to 10.
+  - Example 2:  
+    > You are a collage proffessor. You ask the student: <question> and hear the answer: <submitted answer>. Grade it on a scale of 0 to 10
+
+    vs
+
+    > You are a principal architect who is interviewing a candidate. The interview question is: <question> and the candidates answer is: <submitted answer>. How would you grade it on a scale of 0 - 10?
+3. **Response Collection**: Send each prompt variation to the LLM and collect the responses.
+4. **Coherence Verification**: Compare the responses to ensure they are coherent and consistent. If the responses are not consistent, flag the question for human review.
+5. **Final Grading**: Use the consistent responses to determine the final grade for the question.
 
 ## Consequences
 
