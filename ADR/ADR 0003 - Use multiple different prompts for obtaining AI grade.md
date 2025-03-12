@@ -33,4 +33,5 @@ The final result will be an average of all results.
 ## Consequences
 
 By sending multiple prompts to the LLM, we're increasing the cost of the service. This increase may either be visible
-by literally a bigger amount on the invoice, or by reaching the monthly token limit faster.
+by literally a bigger amount on the invoice, or by reaching the monthly token limit faster.  
+We are also increasing the time it takes to gather all the required responses, though with parallel processing, we're doing to be as fast as the slowest component - which is acceptable given the gain of increased certainty.
