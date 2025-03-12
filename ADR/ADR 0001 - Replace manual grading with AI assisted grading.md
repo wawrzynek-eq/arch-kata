@@ -22,3 +22,9 @@ The solution will work in the following manner:
 With the aid of AI, we are going to signifficantly limit the time needed to grade both tests.
 We are purposely leaving human actions as required, because for the moment, the results of AI interaction have a significant uncertainty factor
 and due to the nature of our business we want to make sure, that the decision about granting or denying a certificate will be just and adhere to any laws on the subject.  
+
+## Tradeoffs
+
+By introducing AI into the process of assesing exams we loosen or relinquish control of quality and responsibility of the assesment.
+Laws regarding consequences of AI being used in such cases are either non-existent or brand new so most likely, the percentage of appeals will rise.
+At the same time, the system becomes more complicated and dependent on external vendors and the quality of their services.
