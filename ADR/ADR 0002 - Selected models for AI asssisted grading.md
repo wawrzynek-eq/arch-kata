@@ -26,3 +26,9 @@ For the initial release, we will use ChatGPT 4, Gemini 1.5 Pro and Claude 3.5 So
 
 The selected models fulfill the requirements and as a bonus, they are considered as the leading LLMs in the market.
 All of them have a subscription service and are widely available.
+
+## Tradeoffs
+
+Other models considered:
+* Github Copilot - did not pass the 'desired response' test
+* DeepSeek (and any reasoning model) - too verbose for this usage
