@@ -20,7 +20,8 @@ The final result will be an average of all results.
 
     > For the question: <question> grade the following answer: <submitted answer> on a scale of 0 to 10.
   - Example 2:  
-    > You are a collage proffessor. You ask the student: <question> and hear the answer: <submitted answer>. Grade it on a scale of 0 to 10
+    > You are a college professor. You ask the student: <question> and hear the answer: <submitted answer>. Grade it on a scale of 0 to 10
+
 
     vs
 
