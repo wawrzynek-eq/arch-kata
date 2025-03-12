@@ -32,3 +32,9 @@ By following this process, we can ensure that the AI model generates more accura
 ## Consequences
 
 By using RAG, we can leverage additional context to improve the accuracy of AI responses. This will help reduce incorrect grading and increase the overall reliability of the system. Additionally, incorporating previous errors into the retrieval process will allow the AI to learn from past mistakes and improve over time.
+
+## Tradeoffs
+
+We need extra infrastructure and extra components that will manage data for RAG. That means both increased development, maintenance and operational costs.
+If instead, we'd fine tune our models, the prompts would not need augmentation and the results should have higher quality. Cost of fine tuning would require an up-front investment that would (most likely) exceed the cost of using RAG.  
+Training a custom LLM is discarded because of an even greater up-front cost.
