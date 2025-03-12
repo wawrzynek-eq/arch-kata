@@ -21,6 +21,10 @@ The process involves the following steps:
 3. **Generation**: The AI uses the retrieved information to generate a response, incorporating the additional context to improve accuracy.
 4. **Continuous Improvement**: The retrieval corpus is continuously updated with new data and previous errors, allowing the AI to learn from its mistakes and improve over time.
 
+The data used for RAG will be kept in plain text format and can utilize a RDBMS for storage. Sample types of data:
+1. Keywords - a question can contain a set of keywords that need to be mentioned in the answer
+2. Historical answers that have been graded by humans as a result of an incorrect AI grading (e.g. `As an example, this answer: <...> should have a minimal grade of <...>`)
+
 ## Justification
 
 By following this process, we can ensure that the AI model generates more accurate and contextually relevant responses, reducing the likelihood of incorrect grades and improving the overall reliability of the grading system.
