@@ -10,7 +10,8 @@ We will implement a monitoring system for prompt accuracy. This system will trac
 
 ## Justification
 
-This will ensure that prompts are continuously optimized to maintain high accuracy in AI-assisted assessments.
+This will ensure that prompts are continuously optimized to gain and maintain high accuracy in AI-assisted assessments.
+It wil also allow the system to respond to changes in newer versions of used models and provide a way to compare them.
 
 ## Consequences
 
