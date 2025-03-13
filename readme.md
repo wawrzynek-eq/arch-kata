@@ -2,7 +2,7 @@
 
 ## 👥 Team
 
-We are **Knowledge Out of Range Exception**, a group of passionate professionals from Endava Poland. Our team is consists of the following members:
+We are **Knowledge Out of Range Exception**, a group of passionate professionals from Endava Poland. Our team consists of the following members:
 
 - Paweł Wawrzynek
 - Arkadiusz Jastrzębski
