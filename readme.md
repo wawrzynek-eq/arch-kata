@@ -2,11 +2,26 @@
 
 ## 👥 Team
 
-We are **Knowledge Out of Range Exception**, a group of passionate professionals from Endava Poland. Our team consists of the following members:
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Segoe+UI&size=14&pause=1000&color=F7F7F7&width=320&height=24&lines=We+are+Knowledge+Out+Of+Range+Exception)](https://git.io/typing-svg) 
+</br>
+A group of passionate professionals from Endava Poland. Our team consists of the following members:
 
-- Paweł Wawrzynek
-- Arkadiusz Jastrzębski
-- Krzysztof Szczęsny
+</br>
+
+<div style="display:flex; gap: 40px;">
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/PW.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Paweł Wawrzynek</h3>
+   </div>
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/AJ.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Arkadiusz Jastrzębski</h3>
+   </div>
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/KS.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Krzysztof Szczęsny</h3>
+   </div>
+</div>
 
 ## 🎥 Video Presentation
 
@@ -41,7 +56,7 @@ This feasibility analysis evaluates the potential benefits, challenges, and over
 
 **Demand Growth:**
 
-![Demand growth study](Demand-growth-study.png "Demand growth study")
+![Demand growth study](resources/Demand-growth-study.png "Demand growth study")
 
 1. Expected demand for candidates without Generative AI is projected to increase significantly, reaching ~2 000 application per week by 2029.
 2. Based on throughput analysis, to meet this demand without generative AI, the company must either increase the contractors' headcount by 200%, or employ them full-time and still extend from 300 to 500.
