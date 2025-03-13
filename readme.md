@@ -91,11 +91,11 @@ The feasibility analysis indicates that without AI, the company will struggle to
 
 ![Test 1](./Test-1.png "Test 1")
 
-The architecture diagram ilustrates the automated grading process for Test 1. It shows high overview of how responses are processed and graded.
+The architecture diagram illustrates the automated grading process for Test 1. It shows high overview of how responses are processed and graded.
 
-- Candidate complete Test 1, consisting of multiple-choice and short-answere questions.
-- Responses are stored in a databse as ungraded answere
-- Multiple-choice questions are graded through an autograding system. **No impact on the current process**
+- Candidate complete Test 1, consisting of multiple-choice and short-answer questions.
+- Responses are stored in a database as ungraded answer
+- Multiple-choice questions are graded through an auto-grading system. **No impact on the current process**
 - Short-answer responses are passed to an [AI Grading](#grading-component) for evaluation. **Human grading process is replaced by new AI Grading**
 - System compiles all graded responses and stores them in a database
 - Candidates are notified via email.
