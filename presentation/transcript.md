@@ -3,7 +3,7 @@
 ## 1. Introduction
 
 Hello everyone!
-We call ourselves KnowledgeOutOfRangeException and today we'd like to show you our humble proposition for how to improve the grading system with AI-assisted solutions. Without any further a due... Let's crack on!
+We call ourselves KnowledgeOutOfRangeException and today we'd like to show you our humble proposition for how to improve the grading system with AI-assisted solutions. Without any further ado... Let's crack on!
 
 ### Notes
  - How about a personal touch - our photos on the first slide?
@@ -11,14 +11,18 @@ We call ourselves KnowledgeOutOfRangeException and today we'd like to show you o
 ## 2. Let's start with "why"
 
 Let's start with "why"! Nowadays, AI is everywhere - literally everywhere. All companies claim to be introducing it just for the sake of advertising with this magic key word: "AI". So let's look into our current system, business needs and market estimations to see what we want to achieve. 
-[TODO]
 
-### Notes
-- Here we should put some charts showing when and how we'll hit our limit
+The company plans to expand to new markets, which will generate up to 10 times more certification applications than we currently process. On top of that, the market is expected to grow by 21% in the next 4 years. It means, that in 2029 we'll face up to 2400 candidates per week. Without any changes to our process, we'll need around 25.000 work-hours of our experts per week.
+
+[Demand sheet and charts here]
+
+Let's see if it's doable. Currently our contractors work around 8 hours per week. To meet such high demand, we would need to increase headcount by 200%. Alternatively, we could switch to full-time employment, but still we would need to extend to 500 employees. Not only it's very costly, it's probably impossible, as there are not enough experts out there.
+
+[Throughput sheet and charts here]
 
 ## 3. Introducing AI
 
-Ok, now we know. If we won't act now, we'll soon drown in applications. We need to ask machines for help to speed things up. Let's take a look how, or where exactly, AI assistance can be added.
+Ok, now we know. If we don't act now, we'll soon drown in applications. We need to ask machines for help to speed things up. Let's take a look at how, or where exactly, AI assistance can be added.
 [TODO]
 
 ### Notes
