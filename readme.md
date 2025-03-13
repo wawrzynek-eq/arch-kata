@@ -128,24 +128,24 @@ The AI-Assisted Grading is designed to automate and enhance the grading process 
 
 ## ✍️ Architecture Decision Records
 
-#### [ADR 0001 - Replace manual grading with AI-assisted grading](./adr/0001-replace-manual-grading-with-ai-assisted-grading.md)
+#### [ADR 0001 - Replace manual grading with AI-assisted grading](./ADR/0001-replace-manual-grading-with-ai-assisted-grading.md)
 
-#### [ADR 0002 - Selected models for AI-assisted grading](./adr/0002-selected-models-for-ai-assisted-grading.md)
+#### [ADR 0002 - Selected models for AI-assisted grading](./ADR/0002-selected-models-for-ai-assisted-grading.md)
 
-#### [ADR 0003 - Use multiple different prompts for obtaining AI grade](./adr/0003-use-multiple-different-prompts-for-obtaining-ai-grade.md)
+#### [ADR 0003 - Use multiple different prompts for obtaining AI grade](./ADR/0003-use-multiple-different-prompts-for-obtaining-ai-grade.md)
 
-#### [ADR 0004 - Aggregate Responses from Multiple Models](./adr/0004-aggregate-responses-from-multiple-models.md)
+#### [ADR 0004 - Aggregate Responses from Multiple Models](./ADR/0004-aggregate-responses-from-multiple-models.md)
 
-#### [ADR 0005 - Use RAG](./adr/0005-use-rag.md)
+#### [ADR 0005 - Use RAG](./ADR/0005-use-rag.md)
 
-#### [ADR 0006 - AI Response Evaluation Process](./adr/0006-ai-response-evaluation-process.md)
+#### [ADR 0006 - AI Response Evaluation Process](./ADR/0006-ai-response-evaluation-process.md)
 
-#### [ADR 0007 - Human Verification for AI Responses](./adr/0007-human-verification-for-ai-responses.md)
+#### [ADR 0007 - Human Verification for AI Responses](./ADR/0007-human-verification-for-ai-responses.md)
 
-#### [ADR 0008 - AI-only Test Resolution](./adr/0008-ai-only-test-resolution.md)
+#### [ADR 0008 - AI-only Test Resolution](./ADR/0008-ai-only-test-resolution.md)
 
-#### [ADR 0009 - Prompt Accuracy Monitoring](./adr/0009-prompt-accuracy-monitoring.md)
+#### [ADR 0009 - Prompt Accuracy Monitoring](./ADR/0009-prompt-accuracy-monitoring.md)
 
-#### [ADR 0010 - AI-assisted Pass Rate Analysis](./adr/0010-ai-assisted-pass-rate-analysis.md)
+#### [ADR 0010 - AI-assisted Pass Rate Analysis](./ADR/0010-ai-assisted-pass-rate-analysis.md)
 
-#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./adr/0011-ai-assisted-cross-check-for-test-content-updates.md)
+#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./ADR/0011-ai-assisted-cross-check-for-test-content-updates.md)
