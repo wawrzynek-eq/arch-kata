@@ -21,7 +21,7 @@ We are **Knowledge Out of Range Exception**, a group of passionate professionals
 
 ## 🤔 Problem Description
 
-Certifiable, Inc. is facing a significant increase in demand for software architecture certifications due to new laws requiring such certifications and expansion to new markets. The company currently employs 300 expert software architects, with 5 designated experts authorized to modify certification tests. They handle around 200 candidates per week in the U.S., a number expected to grow 5-10 times with overseas expansion. The certification exam costs $800, a price fixed by the Software Architecture Licensing Board (SALB).
+Certifiable, Inc. is facing a significant increase in demand for software architecture certifications due to new regulations, as well as expansion to new markets. The company currently employs 300 expert software architects, with 5 designated experts authorized to modify certification tests. They handle around 200 candidates per week in the U.S., a number expected to grow 5-10 times with overseas expansion. The certification exam costs $800, a price fixed by the Software Architecture Licensing Board (SALB).
 
 To manage this surge, the company is considering a redesign of their flagship system, SoftArchCert by incorporating Generative AI.
 
