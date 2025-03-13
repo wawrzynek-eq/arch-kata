@@ -44,7 +44,7 @@ This feasibility analysis evaluates the potential benefits, challenges, and over
 ![Demand growth study](Demand-growth-study.png "Demand growth study")
 
 1. Expected demand for candidates without Generative AI is projected to increase significantly, reaching ~2 000 application per week by 2029.
-2. Based on throughput analysis, to meet this demand without generative AI, the company must increase headcount by 200% or maintain a workforce of 500 full-time employees. 
+2. Based on throughput analysis, to meet this demand without generative AI, the company must either increase the contractors' headcount by 200%, or employ them full-time and still extend from 300 to 500.
 See [ADR-001](./ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20assisted%20grading.md)
 
 **Costs:**
