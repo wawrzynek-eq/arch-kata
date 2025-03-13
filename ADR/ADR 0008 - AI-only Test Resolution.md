@@ -19,3 +19,7 @@ We will implement an AI-only test resolution for certification assessments in sc
 5. **Risk Management**: Identifies and mitigates potential risks associated with AI-assisted assessments by including disclaimers and maintaining transparency. The configurable threshold for AI result confidence ensures that only high-confidence results are used without human review, further managing risks.
 
 By implementing this approach, we ensure that the AI-only test resolution is both efficient and reliable, with safeguards in place to maintain the quality and accuracy of the assessments.
+
+## Tradeoffs
+
+Alternatively, we can skip this logic all together. This may lead to exceeding some deadlines, which may or may not be critical depending on the business situation.

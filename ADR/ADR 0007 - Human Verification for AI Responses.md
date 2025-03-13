@@ -21,3 +21,8 @@ We will implement a differentiated data flow for test question responses, based 
 5. **Risk Management**: Potential risks associated with incorrect AI assessments are mitigated by incorporating human oversight for lower-confidence responses.
 
 By implementing this approach, we strike a balance between leveraging AI for efficiency and ensuring accuracy through human verification where necessary.
+
+## Tradeoffs
+
+Alternatively, we could rely on AI responses entirely. This would make the process very simple and allow for even quicker assesments. Using multiple models and multiple prompts should in time yield a high confidence level, given that the quality of LLM responses does have a small, but positive trend.
+The consequence of providing low quality assesments in the beginning though, is critial enough to justify the complications, because without them, we may never reach the point of 'high confidence automated responses'.
