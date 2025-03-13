@@ -1,43 +1,151 @@
-# Introduction of AI-assisted solutions for test assessment and continuous improvement
+# Knowledge Out of Range Exception - O'Reilly Architectural Katas: Winter 2025
 
-We updated the existing system by using AI-assisted analysis to assess tests in both stages. The following steps outline how AI is integrated into the assessment process to enhance accuracy, reliability, and efficiency:
+## 👥 Team
 
-## 1. Multiple AI models and prompts
-- The system utilizes multiple leading AI models (e.g., ChatGPT 4, Gemini 1.5 Pro, Claude 3.5 Sonnet) to analyze test responses.
-- Multiple prompts are used to obtain AI-generated grades, ensuring that responses are cross-verified for consistency and accuracy.
+We are **Knowledge Out of Range Exception**, a group of passionate professionals from Endava Poland. Our team consists of the following members:
 
-## 2. Aggregation of AI responses
-- Responses from different AI models are aggregated to reduce biases and errors.
-- This aggregation process ensures a more balanced and accurate assessment by leveraging the strengths of each model.
+- Paweł Wawrzynek
+- Arkadiusz Jastrzębski
+- Krzysztof Szczęsny
 
-## 3. Retrieval Augmented Generation (RAG)
-- RAG is employed to provide additional context to the AI models, enhancing the accuracy of their responses.
-- This approach reduces false positives and improves the reliability of the grading process.
+## 🎥 Video Presentation
 
-## 4. AI response evaluation process
-- The system incorporates a feedback loop where AI responses are evaluated for accuracy.
-- Low-confidence responses are flagged for human verification, ensuring that only high-confidence responses are used for final grading.
+**Embedded video here.**
 
-## 5. Human verification
-- Human evaluators review low-confidence AI responses to confirm their accuracy.
-- Confidence thresholds are set to balance efficiency and accuracy, reducing the workload for human evaluators while maintaining high standards.
+## 📑 Table of Content
 
-## 6. Back-up AI-only test resolution
-- In extreme conditions, the system can resolve tests using AI-only responses to meet contract deadlines.
-- This approach ensures compliance with deadlines while minimizing dependency on human reviewers.
+- [🤔 Problem Description](#-problem-description)
+- [📊 Feasibility Analysis](#-feasibility-analysis)
+- [📐 Architecture and Design](#-architecture-and-design)
+- [✍️ Architecture Decision Records](#️-architecture-decision-records)
 
-## 7. Prompt accuracy monitoring
-- Prompts used for AI grading are continuously monitored and optimized to ensure high accuracy.
-- Data-driven insights from this monitoring process are used to modify and improve prompts over time.
+## 🤔 Problem Description
 
-## 8. AI-assisted cross check for test content updates
-- New test questions undergo cross-AI verification to improve clarity and accuracy.
-- This process helps identify potential issues early, ensuring that test questions are well-formed and unambiguous.
+Certifiable, Inc. is facing a significant increase in demand for software architecture certifications due to new regulations, as well as expansion to new markets. The company currently employs 300 expert software architects, with 5 designated experts authorized to modify certification tests. They handle around 200 candidates per week in the U.S., a number expected to grow 5-10 times with overseas expansion. The certification exam costs $800, a price fixed by the Software Architecture Licensing Board (SALB).
 
-## 9. AI-assisted pass rate analysis
-- The system automates the analysis of test questions and pass rates to provide insights for improving test quality and fairness.
-- This analysis helps identify patterns and areas for improvement, ensuring that the certification process remains fair and effective.
+To manage this surge, the company is considering a redesign of their flagship system, SoftArchCert by incorporating Generative AI.
 
-## Conclusion
+### Requirements
 
-The AI-assisted analysis system for assessing certification tests leverages multiple AI models, prompts, and advanced techniques like RAG to provide accurate, reliable, and efficient grading. By incorporating human verification for low-confidence responses and continuously optimizing prompts, the system ensures high standards while reducing manual intervention. Automated analysis and cross-AI verification further enhance the quality and fairness of the certification process, making it robust and effective.
+- Automate the certification process to handle increased volume.
+- Maintain or improve the accuracy and reliability of the grading process.
+- Reduce the workload on human graders while ensuring high standards.
+
+## 📊 Feasibility Analysis
+
+### Introduction
+
+This feasibility analysis evaluates the potential benefits, challenges, and overall viability of incorporating AI into the certification process.
+
+![Throughput](ADR/ADR0001-throughput.png "Throughput Analysis")
+
+**Demand Growth:**
+
+![Demand growth study](Demand-growth-study.png "Demand growth study")
+
+1. Expected demand for candidates without Generative AI is projected to increase significantly, reaching ~2 000 application per week by 2029.
+2. Based on throughput analysis, to meet this demand without generative AI, the company must either increase the contractors' headcount by 200%, or employ them full-time and still extend from 300 to 500.
+See [ADR-001](./ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20assisted%20grading.md)
+
+**Costs:**
+
+![Cost study](Cost-study.png "Cost study")
+
+1. The cost of employee labour, without automation, is estimated for around $1 million annually by 2029. (200% increase in headcount would triple workforce costs)
+2. A significant rise in spending occurs immediately after expansion in 2026.
+3. Recruiting and managing 500 full-time employees would require additional HR and infrastructure investment, further inflating expenses.
+
+### Generative AI as cost-effective solution
+
+AI-powered automation can significantly reduce the number of full-time employees needed, limiting headcount expansion while increasing processing capacity. Instead of hiring hundreds of new employees, existing staff can focus on human oversight over AI. With AI integration, the need for a 200% increase in workforce can be eliminated, leading to substantial cost savings.
+
+### Benefits
+
+1. **Scalability**: AI can handle a higher volume of certification requests without a proportional increase in human resources.
+2. **Efficiency**: Automated grading can significantly reduce the time required to assess tests.
+3. **Cost Savings**: Over time, the reduction in manual grading can lead to cost savings.
+
+### Challenges
+
+1. **Initial Investment**: Implementing AI solutions requires a significant upfront investment in technology and training.
+   - **Mitigation**: Plan for phased implementation. Start with a pilot program to demonstrate value before scaling up.
+2. **Model Accuracy**: Ensuring the AI models are accurate and reliable is critical. This requires continuous monitoring and updates.
+   - **Mitigation**: Include human oversight over Generative AI to validate and correct AI outputs.
+3. **Integration**: Integrating AI into the existing system may pose technical challenges and require substantial modifications.
+   - **Mitigation**: Conduct thorough testing and have a dedicated integration team to manage the process. Use modular and scalable architecture to facilitate integration.
+4. **User Training and Adoption**: Ensuring that staff are adequately trained to use AI tools and that they adopt the new technology.
+   - **Mitigation**: Provide comprehensive training programs and ongoing support. Foster a culture of innovation and openness to new technologies.
+
+### Risk Analysis
+
+1. **Technical Risks**: Potential issues with AI model accuracy, integration challenges, and system performance.
+2. **Compliance Risks**: Ensuring adherence to regulatory requirements and maintaining transparency in the AI-assisted grading process.
+
+### Conclusion
+
+The feasibility analysis indicates that without AI, the company will struggle to scale efficiently due to the excessive workforce and financial demands. Integrating Generative AI into the SoftArchCert system is viable and offers significant benefits in terms of scalability, efficiency, and cost savings. While there are challenges and risks, they can be mitigated through careful planning, continuous monitoring, and a balanced approach to AI and human oversight. The proposed redesign will enable Certifiable, Inc. to manage the anticipated increase in certification requests effectively and maintain high standards in the certification process.
+
+## 📐 Architecture and Design
+
+### Test 1 Architecture
+
+![Test 1](./Test-1.png "Test 1")
+
+The architecture diagram illustrates the automated grading process for Test 1. It shows high overview of how responses are processed and graded.
+
+- Candidate complete Test 1, consisting of multiple-choice and short-answer questions.
+- Responses are stored in a database as ungraded answer
+- Multiple-choice questions are graded through an auto-grading system. **No impact on the current process**
+- Short-answer responses are passed to an [AI Grading](#grading-component) for evaluation. **Human grading process is replaced by new AI Grading**
+- System compiles all graded responses and stores them in a database
+- Candidates are notified via email.
+
+### Test 2 Architecture
+
+![Test 2](./Test-2.png "Test 2")
+
+Test 2 is designed to assess candidates ability to create an architectural solution. Suggested approach modifies the current process by adding evaluation based on [AI Grading](#grading-component)
+
+- Candidate completes Test 2 by designing an architectural solution
+- Solution is uploaded to the Architectural Submissions Database
+- AI analyzes the submission using predefined evaluation criteria such as design quality, correctness, etc.
+- AI assigns an initial grade and feedback 
+- Expert reviews the submission. Hybrid approach ensures quality control while minimizing manual effort.
+- Test 2 grading results are stored
+- If candidate passes, their certification status is updated in the Certification Database
+- Candidate receives his final result via email.
+
+### Grading Component Architecture
+
+![Grading Component](./Grading-component.png "Grading Component")
+
+The AI-Assisted Grading is designed to automate and enhance the grading process by leveraging multiple AI models. This system reduces expert workload.
+
+- Candidate answers are fed into the AI Prompt Generator.
+- Prompt Generator formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
+- Results are aggregated to generate a final grading suggestion
+- Expert reviews and adjusts AI generated grades if necessary
+
+## ✍️ Architecture Decision Records
+
+#### [ADR 0001 - Replace manual grading with AI-assisted grading](./adr/0001-replace-manual-grading-with-ai-assisted-grading.md)
+
+#### [ADR 0002 - Selected models for AI-assisted grading](./adr/0002-selected-models-for-ai-assisted-grading.md)
+
+#### [ADR 0003 - Use multiple different prompts for obtaining AI grade](./adr/0003-use-multiple-different-prompts-for-obtaining-ai-grade.md)
+
+#### [ADR 0004 - Aggregate Responses from Multiple Models](./adr/0004-aggregate-responses-from-multiple-models.md)
+
+#### [ADR 0005 - Use RAG](./adr/0005-use-rag.md)
+
+#### [ADR 0006 - AI Response Evaluation Process](./adr/0006-ai-response-evaluation-process.md)
+
+#### [ADR 0007 - Human Verification for AI Responses](./adr/0007-human-verification-for-ai-responses.md)
+
+#### [ADR 0008 - AI-only Test Resolution](./adr/0008-ai-only-test-resolution.md)
+
+#### [ADR 0009 - Prompt Accuracy Monitoring](./adr/0009-prompt-accuracy-monitoring.md)
+
+#### [ADR 0010 - AI-assisted Pass Rate Analysis](./adr/0010-ai-assisted-pass-rate-analysis.md)
+
+#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./adr/0011-ai-assisted-cross-check-for-test-content-updates.md)
