@@ -23,7 +23,7 @@ We are **Knowledge Out of Range Exception**, a group of passionate professionals
 
 Certifiable, Inc. is facing a significant increase in demand for software architecture certifications due to new laws requiring such certifications and expansion to new markets. The company currently employs 300 expert software architects, with 5 designated experts authorized to modify certification tests. They handle around 200 candidates per week in the U.S., a number expected to grow 5-10 times with overseas expansion. The certification exam costs $800, a price fixed by the Software Architecture Licensing Board (SALB).
 
-To manage this surge, the company consider redesign of their flagship system, SoftArchCert by incorporating Generative AI.
+To manage this surge, the company is considering a redesign of their flagship system, SoftArchCert by incorporating Generative AI.
 
 ### Requirements
 
@@ -95,7 +95,7 @@ The architecture diagram ilustrates the automated grading process for Test 1. It
 
 - Candidate complete Test 1, consisting of multiple-choice and short-answere questions.
 - Responses are stored in a databse as ungraded answere
-- Multiple-choice questions are graded through an autograding system. **No impact on the currect process**
+- Multiple-choice questions are graded through an autograding system. **No impact on the current process**
 - Short-answer responses are passed to an [AI Grading](#grading-component) for evaluation. **Human grading process is replaced by new AI Grading**
 - System compiles all graded responses and stores them in a database
 - Candidates are notified via email.
@@ -104,27 +104,27 @@ The architecture diagram ilustrates the automated grading process for Test 1. It
 
 ![Test 2](./Test-2.png "Test 2")
 
-Test 2 is designed to assess candidates ability to create architectural solution. Suggested approach modify current process to evaluation based on [AI Grading](#grading-component)
+Test 2 is designed to assess candidates ability to create an architectural solution. Suggested approach modifies the current process by adding evaluation based on [AI Grading](#grading-component)
 
-- Candidate complete Test 2 by designing an architectural solution
+- Candidate completes Test 2 by designing an architectural solution
 - Solution is uploaded to the Architectural Submissions Database
 - AI analyzes the submission using predefined evaluation criteria such as design quality, correctness, etc.
 - AI assigns an initial grade and feedback 
-- Expert Review submission. Hybrid approach ensures quality control while minimizing manual effort.
+- Expert reviews the submission. Hybrid approach ensures quality control while minimizing manual effort.
 - Test 2 grading results are stored
 - If candidate passes, their certification status is updated in the Certification Database
-- Candidate receive their final result via email.
+- Candidate receives his final result via email.
 
 ### Grading Component Architecture
 
 ![Grading Component](./Grading-component.png "Grading Component")
 
-The AI-Assisted Grading is designed to automate and enchance the grading process by leveraging multiple AI models. This system reduce expert workload.
+The AI-Assisted Grading is designed to automate and enhance the grading process by leveraging multiple AI models. This system reduces expert workload.
 
-- Candidate answers are fed into AI Prompt Generator.
-- Prompt Generator formulates queries and requests grading suggestions from multiple AI Models. Several AI models independently evaluate responses.
-- Result from multiple AI models are aggregated to generate a final grading suggestion
-- Expert review and adjust AI generated grades if necessary
+- Candidate answers are fed into the AI Prompt Generator.
+- Prompt Generator formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
+- Results are aggregated to generate a final grading suggestion
+- Expert reviews and adjusts AI generated grades if necessary
 
 ## ✍️ Architecture Decision Records
 
