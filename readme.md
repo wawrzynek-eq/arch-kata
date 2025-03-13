@@ -51,7 +51,7 @@ See [ADR-001](./ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20as
 
 ![Cost study](Cost-study.png "Cost study")
 
-1. The estimated costs for employee work hours without automation is projected to be near $1 million annually by 2029. (200% increase in headcount would triple workforce costs)
+1. The cost of employee labour, without automation, is estimated for around $1 million annually by 2029. (200% increase in headcount would triple workforce costs)
 2. A significant rise in spending occurs immediately after expansion in 2026.
 3. Recruiting and managing 500 full-time employees would require additional HR and infrastructure investment, further inflating expenses.
 
