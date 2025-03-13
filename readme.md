@@ -121,10 +121,11 @@ Test 2 is designed to assess candidates ability to create an architectural solut
 
 The AI-Assisted Grading is designed to automate and enhance the grading process by leveraging multiple AI models. This system reduces expert workload.
 
-- Candidate answers are fed into the AI Prompt Generator.
-- Prompt Generator formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
+- Candidate answers are fed into the AI Prompter.
+- AI Prompter formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
 - Results are aggregated to generate a final grading suggestion
 - Expert reviews and adjusts AI generated grades if necessary
+- Suggestions aggregator is responsible for aggregating stored grades
 
 #### Grading Process
 
@@ -132,7 +133,7 @@ The AI-Assisted Grading is designed to automate and enhance the grading process 
 
 - AI Prompter send `N` prompt to `M` AI Models
 - Each model asynchronously send grade suggestion to AI Prompter
-- AI Prompter is responsible for aggregating and storing data in Grading suggestion DB
+- AI Prompter is responsible for storing data in Grading Suggestion DB
 
 ## ✍️ Architecture Decision Records
 
