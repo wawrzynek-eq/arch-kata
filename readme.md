@@ -37,7 +37,7 @@ To manage this surge, the company is considering a redesign of their flagship sy
 
 This feasibility analysis evaluates the potential benefits, challenges, and overall viability of incorporating AI into the certification process.
 
-![Throughput](ADR/ADR0001-throughput.png "Throughput Analysis")
+![Throughput](resources/ADR/ADR0001-throughput.png "Throughput Analysis")
 
 **Demand Growth:**
 
@@ -45,11 +45,11 @@ This feasibility analysis evaluates the potential benefits, challenges, and over
 
 1. Expected demand for candidates without Generative AI is projected to increase significantly, reaching ~2 000 application per week by 2029.
 2. Based on throughput analysis, to meet this demand without generative AI, the company must either increase the contractors' headcount by 200%, or employ them full-time and still extend from 300 to 500.
-See [ADR-001](./ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20assisted%20grading.md)
+See [ADR-001](./resources/ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20assisted%20grading.md)
 
 **Costs:**
 
-![Cost study](Cost-study.png "Cost study")
+![Cost study](resources/Cost-study.png "Cost study")
 
 1. The cost of employee labour, without automation, is estimated for around $1 million annually by 2029. (200% increase in headcount would triple workforce costs)
 2. A significant rise in spending occurs immediately after expansion in 2026.
@@ -89,7 +89,7 @@ The feasibility analysis indicates that without AI, the company will struggle to
 
 ### Test 1 Architecture
 
-![Test 1](./Test-1.png "Test 1")
+![Test 1](./resources/Test-1.png "Test 1")
 
 The architecture diagram illustrates the automated grading process for Test 1. It shows high overview of how responses are processed and graded.
 
@@ -102,7 +102,7 @@ The architecture diagram illustrates the automated grading process for Test 1. I
 
 ### Test 2 Architecture
 
-![Test 2](./Test-2.png "Test 2")
+![Test 2](./resources/Test-2.png "Test 2")
 
 Test 2 is designed to assess candidates ability to create an architectural solution. Suggested approach modifies the current process by adding evaluation based on [AI Grading](#grading-component)
 
@@ -117,7 +117,7 @@ Test 2 is designed to assess candidates ability to create an architectural solut
 
 ### Grading Component Architecture
 
-![Grading Component](./Grading-component.png "Grading Component")
+![Grading Component](./resources/Grading-component.png "Grading Component")
 
 The AI-Assisted Grading is designed to automate and enhance the grading process by leveraging multiple AI models. This system reduces expert workload.
 
