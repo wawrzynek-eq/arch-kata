@@ -41,7 +41,7 @@ This feasibility analysis evaluates the potential benefits, challenges, and over
 
 **Demand Growth:**
 
-![Demand growth study](Demand-growth-study.png)
+![Demand growth study](Demand-growth-study.png "Demand growth study")
 
 1. Expected demand for candidates without Generative AI is projected to increase significantly, reaching ~2 000 application per week by 2029.
 2. Based on throughput analysis, to meet this demand without generative AI, the company must increase headcount by 200% or maintain a workforce of 500 full-time employees. 
@@ -49,7 +49,7 @@ See [ADR-001](./ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20as
 
 **Costs:**
 
-![Cost study](Cost-study.png)
+![Cost study](Cost-study.png "Cost study")
 
 1. The estimated costs for employee work hours without automation is projected to be near $1 million annually by 2029. (200% increase in headcount would triple workforce costs)
 2. A significant rise in spending occurs immediately after expansion in 2026.
@@ -94,35 +94,24 @@ The feasibility analysis indicates that without AI, the company will struggle to
 
 ## ✍️ Architecture Decision Records
 
-### 1. Replace manual grading with AI-assisted grading
-- [ADR 0001 - Replace manual grading with AI-assisted grading](./adr/0001-replace-manual-grading-with-ai-assisted-grading.md)
+#### [ADR 0001 - Replace manual grading with AI-assisted grading](./adr/0001-replace-manual-grading-with-ai-assisted-grading.md)
 
-### 2. Selected models for AI-assisted grading
-- [ADR 0002 - Selected models for AI-assisted grading](./adr/0002-selected-models-for-ai-assisted-grading.md)
+#### [ADR 0002 - Selected models for AI-assisted grading](./adr/0002-selected-models-for-ai-assisted-grading.md)
 
-### 3. Use multiple different prompts for obtaining AI grade
-- [ADR 0003 - Use multiple different prompts for obtaining AI grade](./adr/0003-use-multiple-different-prompts-for-obtaining-ai-grade.md)
+#### [ADR 0003 - Use multiple different prompts for obtaining AI grade](./adr/0003-use-multiple-different-prompts-for-obtaining-ai-grade.md)
 
-### 4. Aggregate Responses from Multiple Models
-- [ADR 0004 - Aggregate Responses from Multiple Models](./adr/0004-aggregate-responses-from-multiple-models.md)
+#### [ADR 0004 - Aggregate Responses from Multiple Models](./adr/0004-aggregate-responses-from-multiple-models.md)
 
-### 5. Use RAG
-- [ADR 0005 - Use RAG](./adr/0005-use-rag.md)
+#### [ADR 0005 - Use RAG](./adr/0005-use-rag.md)
 
-### 6. AI Response Evaluation Process
-- [ADR 0006 - AI Response Evaluation Process](./adr/0006-ai-response-evaluation-process.md)
+#### [ADR 0006 - AI Response Evaluation Process](./adr/0006-ai-response-evaluation-process.md)
 
-### 7. Human Verification for AI Responses
-- [ADR 0007 - Human Verification for AI Responses](./adr/0007-human-verification-for-ai-responses.md)
+#### [ADR 0007 - Human Verification for AI Responses](./adr/0007-human-verification-for-ai-responses.md)
 
-### 8. AI-only Test Resolution
-- [ADR 0008 - AI-only Test Resolution](./adr/0008-ai-only-test-resolution.md)
+#### [ADR 0008 - AI-only Test Resolution](./adr/0008-ai-only-test-resolution.md)
 
-### 9. Prompt Accuracy Monitoring
-- [ADR 0009 - Prompt Accuracy Monitoring](./adr/0009-prompt-accuracy-monitoring.md)
+#### [ADR 0009 - Prompt Accuracy Monitoring](./adr/0009-prompt-accuracy-monitoring.md)
 
-### 10. AI-assisted Pass Rate Analysis
-- [ADR 0010 - AI-assisted Pass Rate Analysis](./adr/0010-ai-assisted-pass-rate-analysis.md)
+#### [ADR 0010 - AI-assisted Pass Rate Analysis](./adr/0010-ai-assisted-pass-rate-analysis.md)
 
-### 11. AI-assisted Cross Check for Test Content Updates
-- [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./adr/0011-ai-assisted-cross-check-for-test-content-updates.md)
+#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./adr/0011-ai-assisted-cross-check-for-test-content-updates.md)
