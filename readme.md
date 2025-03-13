@@ -129,7 +129,7 @@ The AI-Assisted Grading is designed to automate and enhance the grading process 
 
 #### Grading Process
 
-![Grading Process](./Grading-process.png "Grading Process")
+![Grading Process](./resources/Grading-process.png "Grading Process")
 
 - AI Prompter send `N` prompt to `M` AI Models
 - Each model asynchronously send grade suggestion to AI Prompter
