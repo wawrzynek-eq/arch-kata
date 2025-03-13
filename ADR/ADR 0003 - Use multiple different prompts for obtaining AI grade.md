@@ -13,13 +13,13 @@ The final result will be an average of all results.
 ## Technique Description
 
 1. **Multiple Prompt Generation**: For each question, generate multiple variations of the prompt to be sent to the LLM. This could incorporate changing the sequence of question/answer (LLMs tend to favor the last given information), rephrasing the prompt or using personas
-  - Example 1:  
+  - Output formatting strategy:  
     > On a scale of 0 to 10, grade the following answer: <submitted answer> to the question: <question>
 
     vs
 
     > For the question: <question> grade the following answer: <submitted answer> on a scale of 0 to 10.
-  - Example 2:  
+  - Persona strategy:  
     > You are a college professor. You ask the student: <question> and hear the answer: <submitted answer>. Grade it on a scale of 0 to 10
 
 
