@@ -87,6 +87,45 @@ The feasibility analysis indicates that without AI, the company will struggle to
 
 ## 📐 Architecture and Design
 
+### Test 1 Architecture
+
+![Test 1](./Test-1.png "Test 1")
+
+The architecture diagram ilustrates the automated grading process for Test 1. It shows high overview of how responses are processed and graded.
+
+- Candidate complete Test 1, consisting of multiple-choice and short-answere questions.
+- Responses are stored in a databse as ungraded answere
+- Multiple-choice questions are graded through an autograding system. **No impact on the currect process**
+- Short-answer responses are passed to an [AI Grading](#grading-component) for evaluation. **Human grading process is replaced by new AI Grading**
+- System compiles all graded responses and stores them in a database
+- Candidates are notified via email.
+
+### Test 2 Architecture
+
+![Test 2](./Test-2.png "Test 2")
+
+Test 2 is designed to assess candidates ability to create architectural solution. Suggested approach modify current process to evaluation based on [AI Grading](#grading-component)
+
+- Candidate complete Test 2 by designing an architectural solution
+- Solution is uploaded to the Architectural Submissions Database
+- AI analyzes the submission using predefined evaluation criteria such as design quality, correctness, etc.
+- AI assigns an initial grade and feedback 
+- Expert Review submission. Hybrid approach ensures quality control while minimizing manual effort.
+- Test 2 grading results are stored
+- If candidate passes, their certification status is updated in the Certification Database
+- Candidate receive their final result via email.
+
+### Grading Component Architecture
+
+![Grading Component](./Grading-component.png "Grading Component")
+
+The AI-Assisted Grading is designed to automate and enchance the grading process by leveraging multiple AI models. This system reduce expert workload.
+
+- Candidate answers are fed into AI Prompt Generator.
+- Prompt Generator formulates queries and requests grading suggestions from multiple AI Models. Several AI models independently evaluate responses.
+- Result from multiple AI models are aggregated to generate a final grading suggestion
+- Expert review and adjust AI generated grades if necessary
+
 ## ✍️ Architecture Decision Records
 
 #### [ADR 0001 - Replace manual grading with AI-assisted grading](./adr/0001-replace-manual-grading-with-ai-assisted-grading.md)
