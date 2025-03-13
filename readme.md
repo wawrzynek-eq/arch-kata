@@ -2,11 +2,26 @@
 
 ## 👥 Team
 
-We are **Knowledge Out of Range Exception**, a group of passionate professionals from Endava Poland. Our team consists of the following members:
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Segoe+UI&size=14&pause=1000&color=F7F7F7&width=320&height=24&lines=We+are+Knowledge+Out+Of+Range+Exception)](https://git.io/typing-svg) 
+</br>
+A group of passionate professionals from Endava Poland. Our team consists of the following members:
 
-- Paweł Wawrzynek
-- Arkadiusz Jastrzębski
-- Krzysztof Szczęsny
+</br>
+
+<div style="display:flex; gap: 40px;">
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/PW.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Paweł Wawrzynek</h3>
+   </div>
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/AJ.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Arkadiusz Jastrzębski</h3>
+   </div>
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/KS.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Krzysztof Szczęsny</h3>
+   </div>
+</div>
 
 ## 🎥 Video Presentation
 
@@ -19,7 +34,7 @@ We are **Knowledge Out of Range Exception**, a group of passionate professionals
 - [📐 Architecture and Design](#-architecture-and-design)
 - [✍️ Architecture Decision Records](#️-architecture-decision-records)
 
-## 🤔 Problem Description
+## 🤔 Problem Description 
 
 Certifiable, Inc. is facing a significant increase in demand for software architecture certifications due to new regulations, as well as expansion to new markets. The company currently employs 300 expert software architects, with 5 designated experts authorized to modify certification tests. They handle around 200 candidates per week in the U.S., a number expected to grow 5-10 times with overseas expansion. The certification exam costs $800, a price fixed by the Software Architecture Licensing Board (SALB).
 
@@ -41,7 +56,7 @@ This feasibility analysis evaluates the potential benefits, challenges, and over
 
 **Demand Growth:**
 
-![Demand growth study](Demand-growth-study.png "Demand growth study")
+![Demand growth study](resources/Demand-growth-study.png "Demand growth study")
 
 1. Expected demand for candidates without Generative AI is projected to increase significantly, reaching ~2 000 application per week by 2029.
 2. Based on throughput analysis, to meet this demand without generative AI, the company must either increase the contractors' headcount by 200%, or employ them full-time and still extend from 300 to 500.
@@ -121,10 +136,19 @@ Test 2 is designed to assess candidates ability to create an architectural solut
 
 The AI-Assisted Grading is designed to automate and enhance the grading process by leveraging multiple AI models. This system reduces expert workload.
 
-- Candidate answers are fed into the AI Prompt Generator.
-- Prompt Generator formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
+- Candidate answers are fed into the AI Prompter.
+- AI Prompter formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
 - Results are aggregated to generate a final grading suggestion
 - Expert reviews and adjusts AI generated grades if necessary
+- Suggestions aggregator is responsible for aggregating stored grades
+
+#### Grading Process
+
+![Grading Process](./resources/Grading-process.png "Grading Process")
+
+- AI Prompter send `N` prompt to `M` AI Models
+- Each model asynchronously send grade suggestion to AI Prompter
+- AI Prompter is responsible for storing data in Grading Suggestion DB
 
 ## ✍️ Architecture Decision Records
 
