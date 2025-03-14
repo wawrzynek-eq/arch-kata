@@ -14,12 +14,12 @@ Let's start with "why"! Nowadays, AI is everywhere - literally everywhere. All c
 [Funny illustration of AI being everywhere]
 
 ### Demand
-The company plans to expand to new markets, which will generate up to 10 times more certification applications than we currently process. On top of that, the market is expected to grow by 21% in the next 4 years. It means, that in 2029 we'll face up to 2400 candidates per week. Without any changes to our process, we'll need around 25.000 work-hours of our experts per week.
+The company plans to expand to new markets, which will generate up to 10 times more certification applications than we currently process. On top of that, the market is expected to grow by 21% in the next 4 years. It means that in 2029 we'll face up to 2400 candidates per week. Without any changes to our process, we'll need around 25,000 work-hours of our experts per week.
 
 [Demand sheet and charts]
 
 ### Throughput
-Let's see if it's doable. Currently our contractors work around 8 hours per week. To meet such high demand, we would need to increase headcount by 200%. Alternatively, we could switch to full-time employment, but still we would need to extend to 500 employees. Not only it's very costly, it's probably impossible, as there are not enough experts out there.
+Let's see if it's doable. Currently, our contractors work around 8 hours per week. To meet such high demand, we would need to increase headcount by 200%. Alternatively, we could switch to full-time employment, but still, we would need to extend to 500 employees. Not only is it very costly, it's probably impossible, as there are not enough experts out there.
 
 [Throughput sheet and charts]
 
@@ -31,7 +31,7 @@ Ok, now we know. If we don't act now, we'll soon drown in applications. We need 
 
 ### App graph update
 We decided to include AI-assisted grading in both tests. Here's how it looks now:
-- Multiple choice questions are unambiguous, so we left it as is. 
+- Multiple choice questions are unambiguous, so we left them as is.
 - For the short answer responses, we've added an AI Grading component that takes over the manual grading process.
 - The AI Grading component uses multiple AI models and prompts to evaluate test responses.
 - The results from different AI models are aggregated to provide a final grading suggestion.
@@ -49,7 +49,7 @@ First of all, we want to extend the prompt, so that the AI answer includes confi
 [Thresholds for confidence level] 
 
 ### Multiple models, multiple prompts
-Secondly, since AI processing is not deterministic, we call for a bit of statistics to help us. We propose to run each question assessment multiple times, varying both AI model and the prompt. Some prompt strategies may prove more efficient with a given question than the others. This way, we can limit the errors to a minimum, by crossing out extremes and extracting averages.
+Secondly, since AI processing is not deterministic, we call for a bit of statistics to help us. We propose to run each question assessment multiple times, varying both AI model and the prompt. Some prompt strategies may prove more efficient with a given question than others. This way, we can limit the errors to a minimum, by crossing out extremes and extracting averages.
 
 [Graph of model/prompt section of the system? Examples of strategies?]
 
