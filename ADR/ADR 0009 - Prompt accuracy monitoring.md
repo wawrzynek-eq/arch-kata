@@ -8,16 +8,22 @@ We use multiple prompts to increase the accuracy of AI-assisted assessment of ea
 
 We will implement a monitoring system for prompt accuracy. This system will track the confidence levels of AI responses for each prompt version. If the average confidence for a prompt falls below a certain threshold, the prompt will be flagged for review by moderators and administrators. 
 
-## Justification
+## Technique Description
 
-This will ensure that prompts are continuously optimized to gain and maintain high accuracy in AI-assisted assessments.
-It wil also allow the system to respond to changes in newer versions of used models and provide a way to compare them.
+We will use the same data that was mentioned in [ADR 0006](ADR%200006%20-%20AI%20Response%20Evaluation%20Process.md). Each time an architect reviews a question, the system will recalculate metrics (accuracy, flags) for the prompts and models that were used to get it's automated grade suggestion. These metrics will then be saved in the db.  
+Sample data:
+
+Answers
+| model  | prompt | question | suggested grade | review result |
+| ------ | ------ | -------- | --------------- | ------------- |
+| gpt-o1 | P123   | Q456     | 7               | 8             |
+
+Operatives
+| model  | prompt | accuracy | needs attention |
+| -----  | ------ | -------- | --------------- |
+| gpt-o1 | P123   | 0.92     | 0               |
 
 ## Consequences
 
-1. **Improved Accuracy**: Ensures that AI-assisted assessments are based on well-defined and effective prompts.
-2. **Resource Allocation**: Moderators and administrators will need to allocate time to review and rephrase flagged prompts.
-3. **Data-Driven Decisions**: Provides data-driven insights into prompt performance, helping to make informed decisions about prompt modifications.
-4. **Scalability**: The monitoring system can handle a large number of prompts, making it scalable as the number of test questions and prompts increases.
-
-By implementing this feature, we aim to enhance the accuracy and reliability of our AI-assisted assessments through continuous monitoring and optimization of prompts.
+This will keep the prompt metrics up to date and will provide data that can be later used to change the models as well as  refine or augment the prompts.
+It will also allow the system to respond to changes in newer versions of used models and provide a way to compare them.
