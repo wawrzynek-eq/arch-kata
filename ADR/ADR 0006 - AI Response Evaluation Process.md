@@ -6,17 +6,14 @@ To ensure the accuracy and reliability of AI-assisted grading, it is essential t
 
 ## Decision
 
-We will establish a comprehensive AI response evaluation process that includes the following steps:
+AI responses will be evaluated by comparing them with human review results.
 
 ## Technique Description
 
-1. **Confidence Level Assessment**: Each AI response will be accompanied by a confidence level indicating the AI's certainty in its answer.
-2. **Threshold Determination**: A confidence threshold will be set to determine when human confirmation is required. Responses below this threshold will be flagged for human review.
-3. **Human Confirmation**: For responses that fall below the confidence threshold, a human evaluator will review and confirm the AI's grading. This step ensures that low-confidence responses are accurately assessed and at the same time reduces the amount of work required from a human.
-4. **Feedback Loop**: The results of human confirmation will be fed into the AI statistic db (see [ADR 0005](ADR%200005%20-%20Use%20RAG.md)) to improve its future performance. This feedback loop will help the AI to increase its accuracy over time.
-
-By following this process, we can ensure that AI-assisted grading is both accurate and reliable, with a mechanism in place to handle low-confidence responses effectively.
+To be able to measure and improve the accuracy of our system, we will store the statistics of AI responses (question, prompt, answer) as well as human review results. In that way, we can compare if the AI suggested grade matches the grade given by a human.
+Initially, when we have no data, each answer will need to be reviewed by an architect. After the 'pilot' phase, we should have enough data to determine the accuracy percentage of automatically grated results.
+That information can then be used to either change the model, tweak the prompt, or extend the prompt by adding examples of desired outcome for cases where the AI response did not match with reviewer response.
 
 ## Consequences
 
-Implementing this AI response evaluation process will enhance the reliability and accuracy of AI-aided grading. By incorporating confidence levels and human confirmation, we can reduce the likelihood of incorrect grades and ensure that low-confidence responses are properly evaluated.
+Implementing this AI response evaluation process will enhance the reliability and accuracy of AI-aided grading. By incorporating confidence levels and human confirmation, we can reduce the likelihood of incorrect grades and ensure that low-confidence responses are properly evaluated as well as improved over time.
