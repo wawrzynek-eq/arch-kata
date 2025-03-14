@@ -8,9 +8,9 @@ A group of passionate professionals from Endava Poland. Our team consists of the
 
 </br>
 
-<table style="border: 0">
+<table style="border: 0px">
  <tr>
-    <td><div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden;"><img src="./resources/avatars/PW.png" style="border-radius: 50%;" width="100%"/></div></td>
+    <td><div style="border-radius: 50%; overflow: hidden;" width="200px" height="200px"><img src="./resources/avatars/PW.png" width="100%"/></div></td>
     <td><img src="./resources/avatars/AJ.png" style="border-radius: 50%;" width="200" height="200"/></td>
     <td><img src="./resources/avatars/KS.jpg" style="border-radius: 50%;" width="200" height="200"/></td>
  </tr>
