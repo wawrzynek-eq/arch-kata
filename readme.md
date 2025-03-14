@@ -1,24 +1,21 @@
-# Knowledge Out of Range Exception - O'Reilly Architectural Katas: Winter 2025
+# KnowledgeOutOfRangeException - O'Reilly Architectural Katas: Winter 2025
 
 ## 👥 Team
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Segoe+UI&size=14&pause=1000&color=F7F7F7&width=320&height=24&lines=We+are+Knowledge+Out+Of+Range+Exception)](https://git.io/typing-svg) 
-</br>
-A group of passionate professionals from Endava Poland. Our team consists of the following members:
-
-</br>
+We are KnowledgeOutOfRangeException!  
+A group of passionate professionals from Endava Poland. Our team consists of the following members:  
 
 <div align="center">
    <table style="width: 100%">
    <tr>
-      <td><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/PW.png?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
-      <td><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/AJ.png?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
-      <td><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/KS.jpg?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
+      <td><img src="./resources/avatars/PW.png"/></td>
+      <td><img src="./resources/avatars/AJ.jpg"/></td>
+      <td><img src="./resources/avatars/KS.jpg"/></td>
    </tr>
    <tr>
-      <td><h3>Paweł Wawrzynek</h3></td>
-      <td><h3>Arkadiusz Jastrzębski</h3></td>
-      <td><h3>Krzysztof Szczęsny</h3></td>
+      <td><p>Paweł Wawrzynek</p></td>
+      <td><p>Arkadiusz Jastrzębski</p></td>
+      <td><p>Krzysztof Szczęsny</p></td>
    </tr>
    </table>
 </div>
