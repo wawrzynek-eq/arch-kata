@@ -5,7 +5,7 @@
 We are KnowledgeOutOfRangeException!  
 A group of passionate professionals from Endava Poland. Our team consists of the following members:  
 
-|![](resources/avatars/PW.png)|![](resources/avatars/AJ.png)|![](resources/avatars/KS.png)|
+|![](resources/avatars/PW.png)|![](resources/avatars/AJ.jpg)|![](resources/avatars/KS.png)|
 | :---: | :---: | :---: |
 |Paweł Wawrzynek|Arkadiusz Jastrzębski|Krzysztof Szczęsny|
 
