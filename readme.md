@@ -9,8 +9,8 @@ A group of passionate professionals from Endava Poland. Our team consists of the
    <table style="width: 100%">
    <tr>
       <td><img src="./resources/avatars/PW.png"/></td>
-      <td><img src="./resources/avatars/AJ.jpg"/></td>
-      <td><img src="./resources/avatars/KS.jpg"/></td>
+      <td><img src="./resources/avatars/AJ.png"/></td>
+      <td><img src="./resources/avatars/KS.png"/></td>
    </tr>
    <tr>
       <td><p>Paweł Wawrzynek</p></td>
