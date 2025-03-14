@@ -18,7 +18,7 @@ A group of passionate professionals from Endava Poland. Our team consists of the
       <h3>Arkadiusz Jastrzębski</h3>
    </div>
    <div style="display: flex; flex-flow: column; align-items: center;">
-      <img src="./resources/avatars/KS.png" style="border-radius: 50%;" width="200" height="200"/>
+      <img src="./resources/avatars/KS.jpg" style="border-radius: 50%;" width="200" height="200"/>
       <h3>Krzysztof Szczęsny</h3>
    </div>
 </div>
