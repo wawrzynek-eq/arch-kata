@@ -8,7 +8,7 @@ A group of passionate professionals from Endava Poland. Our team consists of the
 
 </br>
 
-![avatar](./resources/avatars/PW.png)
+![avatar](https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/PW.png?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d)
 
 <table style="border: 0px">
  <tr>
