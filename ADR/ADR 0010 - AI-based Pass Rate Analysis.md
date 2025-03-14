@@ -2,7 +2,7 @@
 
 ## Status
 
-In progress - to be refined and discussed further
+Abandoned - this feature can be achieved using basic algebra so no need to involve AI
 
 ## Context
 
