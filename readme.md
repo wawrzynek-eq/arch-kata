@@ -12,9 +12,7 @@ A group of passionate professionals from Endava Poland. Our team consists of the
 
 <table style="border: 0px">
  <tr>
-    <td>![avatar](./resources/avatars/PW.png)</td>
-    <td><img src="./resources/avatars/AJ.png" style="border-radius: 50%;" width="200" height="200"/></td>
-    <td><img src="./resources/avatars/KS.jpg" style="border-radius: 50%;" width="200" height="200"/></td>
+    <td><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/PW.png?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d"/></td>
  </tr>
  <tr>
     <td><h3>Paweł Wawrzynek</h3></td>
