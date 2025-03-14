@@ -10,7 +10,7 @@ We will implement a monitoring system for prompt accuracy. This system will trac
 
 ## Technique Description
 
-We will use the same data that was mentioned in [ADR 0006](ADR%200006%20-%20AI%20Response%20Evaluation%20Process.md). Each time an architect reviews a question, the system will recalculate metrics (accuracy, flags) for the prompts and models that were used to get it's automated grade suggestion. These metrics will then be saved in the db.  
+We will use the same data as mentioned in [ADR 0006](ADR%200006%20-%20AI%20Response%20Evaluation%20Process.md). Each time an architect reviews a question, the system will recalculate metrics (accuracy, flags) for the prompts and models that were used to get its automated grade suggestion. These metrics will then be saved in the database.  
 Sample data:
 
 Answers
