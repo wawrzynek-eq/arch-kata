@@ -8,13 +8,13 @@ A group of passionate professionals from Endava Poland. Our team consists of the
 
 </br>
 
-<table style="border: 0px">
- <tr style="border: 0px">
-    <td style="border: 0px"><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/PW.png?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
-    <td style="border: 0px"><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/AJ.png?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
-    <td style="border: 0px"><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/KS.jpg?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
+<table style="width: 100%">
+ <tr>
+    <td><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/PW.png?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
+    <td><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/AJ.png?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
+    <td><img src="https://images.weserv.nl/?url=raw.githubusercontent.com/wawrzynek-eq/arch-kata/master/resources/avatars/KS.jpg?v=4&h=200&w=200&fit=cover&mask=circle&maxage=7d"/></td>
  </tr>
- <tr style="border: 0px">
+ <tr>
     <td><h3>Paweł Wawrzynek</h3></td>
     <td><h3>Arkadiusz Jastrzębski</h3></td>
     <td><h3>Krzysztof Szczęsny</h3></td>
