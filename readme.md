@@ -2,11 +2,26 @@
 
 ## 👥 Team
 
-We are **Knowledge Out of Range Exception**, a group of passionate professionals from Endava Poland. Our team consists of the following members:
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Segoe+UI&size=14&pause=1000&color=F7F7F7&width=320&height=24&lines=We+are+Knowledge+Out+Of+Range+Exception)](https://git.io/typing-svg) 
+</br>
+A group of passionate professionals from Endava Poland. Our team consists of the following members:
 
-- Paweł Wawrzynek
-- Arkadiusz Jastrzębski
-- Krzysztof Szczęsny
+</br>
+
+<div style="display:flex; gap: 40px;">
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/PW.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Paweł Wawrzynek</h3>
+   </div>
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/AJ.png" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Arkadiusz Jastrzębski</h3>
+   </div>
+   <div style="display: flex; flex-flow: column; align-items: center;">
+      <img src="./resources/avatars/KS.jpg" style="border-radius: 50%;" width="200" height="200"/>
+      <h3>Krzysztof Szczęsny</h3>
+   </div>
+</div>
 
 ## 🎥 Video Presentation
 
@@ -19,7 +34,7 @@ We are **Knowledge Out of Range Exception**, a group of passionate professionals
 - [📐 Architecture and Design](#-architecture-and-design)
 - [✍️ Architecture Decision Records](#️-architecture-decision-records)
 
-## 🤔 Problem Description
+## 🤔 Problem Description 
 
 Certifiable, Inc. is facing a significant increase in demand for software architecture certifications due to new regulations, as well as expansion to new markets. The company currently employs 300 expert software architects, with 5 designated experts authorized to modify certification tests. They handle around 200 candidates per week in the U.S., a number expected to grow 5-10 times with overseas expansion. The certification exam costs $800, a price fixed by the Software Architecture Licensing Board (SALB).
 
@@ -37,19 +52,19 @@ To manage this surge, the company is considering a redesign of their flagship sy
 
 This feasibility analysis evaluates the potential benefits, challenges, and overall viability of incorporating AI into the certification process.
 
-![Throughput](ADR/ADR0001-throughput.png "Throughput Analysis")
+![Throughput](resources/ADR/ADR0001-throughput.png "Throughput Analysis")
 
 **Demand Growth:**
 
-![Demand growth study](Demand-growth-study.png "Demand growth study")
+![Demand growth study](resources/Demand-growth-study.png "Demand growth study")
 
 1. Expected demand for candidates without Generative AI is projected to increase significantly, reaching ~2 000 application per week by 2029.
 2. Based on throughput analysis, to meet this demand without generative AI, the company must either increase the contractors' headcount by 200%, or employ them full-time and still extend from 300 to 500.
-See [ADR-001](./ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20assisted%20grading.md)
+See [ADR-001](./resources/ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20assisted%20grading.md)
 
 **Costs:**
 
-![Cost study](Cost-study.png "Cost study")
+![Cost study](resources/Cost-study.png "Cost study")
 
 1. The cost of employee labour, without automation, is estimated for around $1 million annually by 2029. (200% increase in headcount would triple workforce costs)
 2. A significant rise in spending occurs immediately after expansion in 2026.
@@ -89,7 +104,7 @@ The feasibility analysis indicates that without AI, the company will struggle to
 
 ### Test 1 Architecture
 
-![Test 1](./Test-1.png "Test 1")
+![Test 1](./resources/Test-1.png "Test 1")
 
 The architecture diagram illustrates the automated grading process for Test 1. It shows high overview of how responses are processed and graded.
 
@@ -102,7 +117,7 @@ The architecture diagram illustrates the automated grading process for Test 1. I
 
 ### Test 2 Architecture
 
-![Test 2](./Test-2.png "Test 2")
+![Test 2](./resources/Test-2.png "Test 2")
 
 Test 2 is designed to assess candidates ability to create an architectural solution. Suggested approach modifies the current process by adding evaluation based on [AI Grading](#grading-component)
 
@@ -117,35 +132,44 @@ Test 2 is designed to assess candidates ability to create an architectural solut
 
 ### Grading Component Architecture
 
-![Grading Component](./Grading-component.png "Grading Component")
+![Grading Component](./resources/Grading-component.png "Grading Component")
 
 The AI-Assisted Grading is designed to automate and enhance the grading process by leveraging multiple AI models. This system reduces expert workload.
 
-- Candidate answers are fed into the AI Prompt Generator.
-- Prompt Generator formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
+- Candidate answers are fed into the AI Prompter.
+- AI Prompter formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
 - Results are aggregated to generate a final grading suggestion
 - Expert reviews and adjusts AI generated grades if necessary
+- Suggestions aggregator is responsible for aggregating stored grades
+
+#### Grading Process
+
+![Grading Process](./resources/Grading-process.png "Grading Process")
+
+- AI Prompter send `N` prompt to `M` AI Models
+- Each model asynchronously send grade suggestion to AI Prompter
+- AI Prompter is responsible for storing data in Grading Suggestion DB
 
 ## ✍️ Architecture Decision Records
 
-#### [ADR 0001 - Replace manual grading with AI-assisted grading](./adr/0001-replace-manual-grading-with-ai-assisted-grading.md)
+#### [ADR 0001 - Replace manual grading with AI-assisted grading](./ADR/ADR%200001%20-%20Replace%20manual%20grading%20with%20AI%20assisted%20grading.md)
 
-#### [ADR 0002 - Selected models for AI-assisted grading](./adr/0002-selected-models-for-ai-assisted-grading.md)
+#### [ADR 0002 - Selected models for AI-assisted grading](./ADR/ADR%200002%20-%20Selected%20models%20for%20AI%20asssisted%20grading.md)
 
-#### [ADR 0003 - Use multiple different prompts for obtaining AI grade](./adr/0003-use-multiple-different-prompts-for-obtaining-ai-grade.md)
+#### [ADR 0003 - Use multiple different prompts for obtaining AI grade](./ADR/ADR%200003%20-%20Use%20multiple%20different%20prompts%20for%20obtaining%20AI%20grade.md)
 
-#### [ADR 0004 - Aggregate Responses from Multiple Models](./adr/0004-aggregate-responses-from-multiple-models.md)
+#### [ADR 0004 - Aggregate Responses from Multiple Models](./ADR/ADR%200004%20-%20Aggregate%20Responses%20from%20Multiple%20Models.md)
 
-#### [ADR 0005 - Use RAG](./adr/0005-use-rag.md)
+#### [ADR 0005 - Use RAG](./ADR/ADR%200005%20-%20Use%20RAG.md)
 
-#### [ADR 0006 - AI Response Evaluation Process](./adr/0006-ai-response-evaluation-process.md)
+#### [ADR 0006 - AI Response Evaluation Process](./ADR/ADR%200006%20-%20AI%20Response%20Evaluation%20Process.md)
 
-#### [ADR 0007 - Human Verification for AI Responses](./adr/0007-human-verification-for-ai-responses.md)
+#### [ADR 0007 - Human Verification for AI Responses](./ADR/ADR%200007%20-%20Human%20Verification%20for%20AI%20Responses.md)
 
-#### [ADR 0008 - AI-only Test Resolution](./adr/0008-ai-only-test-resolution.md)
+#### [ADR 0008 - AI-only Test Resolution](./ADR/ADR%200008%20-%20AI-only%20Test%20Resolution.md)
 
-#### [ADR 0009 - Prompt Accuracy Monitoring](./adr/0009-prompt-accuracy-monitoring.md)
+#### [ADR 0009 - Prompt Accuracy Monitoring](./ADR/ADR%200009%20-%20Prompt%20accuracy%20monitoring.md)
 
-#### [ADR 0010 - AI-assisted Pass Rate Analysis](./adr/0010-ai-assisted-pass-rate-analysis.md)
+#### [ADR 0010 - AI-assisted Pass Rate Analysis](./ADR/ADR%200010%20[out-of-scope]%20-%20AI-based%20Pass%20Rate%20Analysis.md)
 
-#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./adr/0011-ai-assisted-cross-check-for-test-content-updates.md)
+#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./ADR/ADR%200011%20[out-of-scope]%20-%20AI-assisted%20cross%20check%20for%20test%20content%20updates.md)
