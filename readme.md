@@ -8,20 +8,18 @@ A group of passionate professionals from Endava Poland. Our team consists of the
 
 </br>
 
-<div style="display:flex; gap: 40px;">
-   <div style="display: flex; flex-flow: column; align-items: center;">
-      <img src="./resources/avatars/PW.png" style="border-radius: 50%;" width="200" height="200"/>
-      <h3>Paweł Wawrzynek</h3>
-   </div>
-   <div style="display: flex; flex-flow: column; align-items: center;">
-      <img src="./resources/avatars/AJ.png" style="border-radius: 50%;" width="200" height="200"/>
-      <h3>Arkadiusz Jastrzębski</h3>
-   </div>
-   <div style="display: flex; flex-flow: column; align-items: center;">
-      <img src="./resources/avatars/KS.jpg" style="border-radius: 50%;" width="200" height="200"/>
-      <h3>Krzysztof Szczęsny</h3>
-   </div>
-</div>
+<table>
+ <tr>
+    <td><img src="./resources/avatars/PW.png" style="border-radius: 50%;" width="200" height="200"/></td>
+    <td><img src="./resources/avatars/AJ.png" style="border-radius: 50%;" width="200" height="200"/></td>
+    <td><img src="./resources/avatars/KS.jpg" style="border-radius: 50%;" width="200" height="200"/></td>
+ </tr>
+ <tr>
+    <td><h3>Paweł Wawrzynek</h3></td>
+    <td><h3>Arkadiusz Jastrzębski</h3></td>
+    <td><h3>Krzysztof Szczęsny</h3></td>
+ </tr>
+</table>
 
 ## 🎥 Video Presentation
 
