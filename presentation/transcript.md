@@ -60,7 +60,9 @@ And finally, we want AI to provide its feedback, but still want a human expert t
 Ok, we took care about the core functionality in our system. We saved a lot of time of our experts. It's great, but it's not the only work we do every day. So, since we have the technology there, why not to take a step further, and use the same mechanism for continuous improvement and automated issue monitoring?
 
 ### Prompt accuracy monitoring
-[TODO]
+No matter how much we try to prepare efficient and diverse prompts, they will never be perfect. We're only humans after all. Keeping track of confidence levels for each prompt and model will allow us to identify the ones that often give inaccurate responses, flagging them for improvement.
+
+[TODO: What to show here?]
 
 ### Pass-rate analysis
 [TODO]
