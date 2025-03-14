@@ -10,7 +10,7 @@ AI responses will be evaluated by comparing them with human review results.
 
 ## Technique Description
 
-To be able to measure and improve the accuracy of our system, we will store the statistics of AI responses (question, prompt, answer) as well as human review results. In that way, we can compare if the AI suggested grade matches the grade given by a human.
+To be able to measure and improve the accuracy of our system, we will store the statistics of AI responses (question, prompt, answer) as well as human review results. This way, we can verify if the AI suggested grade matches the grade given by a human.
 Initially, when we have no data, each answer will need to be reviewed by an architect. After the 'pilot' phase, we should have enough data to determine the accuracy percentage of automatically grated results.
 That information can then be used to either change the model, tweak the prompt, or extend the prompt by adding examples of desired outcome for cases where the AI response did not match with reviewer response.
 
