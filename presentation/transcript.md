@@ -39,6 +39,12 @@ We decided to include AI-assisted grading in both tests. Here's how it looks now
 
 [Updated graphs of the new solution structure, with new elements clearly marked]
 
+There's one more important thing to add.
+As mentioned, LLM interaction yields non-deterministic results. That means, it would be really hard to test the entire system behavior.
+Knowing that, we made sure that we can mock the AI components out. Since the interface between the prompt generator and the AI service is really simple - text goes in,
+structured text goes out - for the purpose of testing, we can replace any or all AI services with fixed, deterministic ones,
+so that we have full control over key data that's going into the system. That way, we can go through the entire flow, ane fully control the data.
+
 ## [KS] 4. Time is crucial, but it's not everything
 
 To keep up with the market, we must provide results faster, but it can't be just ANY result. We still need to make sure the assessment is fair and accurate. That's how we intend to achieve it.
