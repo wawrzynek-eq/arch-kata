@@ -156,6 +156,6 @@ The AI-Assisted Grading is designed to automate and enhance the grading process 
 
 #### [ADR 0009 - Prompt Accuracy Monitoring](./ADR/ADR%200009%20-%20Prompt%20accuracy%20monitoring.md)
 
-#### [ADR 0010 - AI-assisted Pass Rate Analysis](./ADR/ADR%200010%20[out-of-scope]%20-%20AI-based%20Pass%20Rate%20Analysis.md)
+#### [ADR 0010 - AI-assisted Pass Rate Analysis](./ADR/ADR%200010%20-%20AI-based%20Pass%20Rate%20Analysis.md)
 
-#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./ADR/ADR%200011%20[out-of-scope]%20-%20AI-assisted%20cross%20check%20for%20test%20content%20updates.md)
+#### [ADR 0011 - AI-assisted Cross Check for Test Content Updates](./ADR/ADR%200011%20-%20AI-assisted%20cross%20check%20for%20test%20content%20updates.md)

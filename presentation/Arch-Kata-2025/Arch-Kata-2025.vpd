@@ -8,11 +8,314 @@
                 "title": "Video Track",
                 "type": "MainVideoTrack",
                 "status": 0,
+                "subitems": [
+                    {
+                        "title": "Presentation",
+                        "type": "MediaFileBlock",
+                        "background": 421854463,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{7482A999-AC28-4EBE-8E5B-CE45C3F9ABE6}",
+                        "tstart": 0.0,
+                        "tduration": 296963.646,
+                        "restype": "MediaFileResource",
+                        "resid": "7A0931FB17607DAF0D8A2A70CF8BC4C9",
+                        "attribute": {
+                            "version": 0,
+                            "type": 3,
+                            "videoIndex": 0,
+                            "audioIndex": 1,
+                            "videoEnabled": true,
+                            "audioEnabled": true,
+                            "VideoAttribute": {
+                                "version": 0,
+                                "streamIndex": 0,
+                                "trackDuration": 309.162646,
+                                "deinterlace": false,
+                                "baseInfoInited": true,
+                                "LensCorrection": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "valid": false,
+                                    "focalPosX": 0.5,
+                                    "focalPosY": 0.5,
+                                    "hDeg": 118.2,
+                                    "vDeg": 69.5,
+                                    "dDeg": 133.6,
+                                    "k2": 0.022,
+                                    "cameraID": "custom",
+                                    "fovID": "custom"
+                                },
+                                "VideoCropper": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 309.162646,
+                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileCuttedDuration": 296.963646,
+                                        "blockDuration": 296.963646
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 1920,
+                                        "srcHeight": 1040,
+                                        "targetWidth": 1920,
+                                        "targetHeight": 1040
+                                    },
+                                    "isPic": false,
+                                    "staticNode": {
+                                        "time": 0.0,
+                                        "duration": 0.0,
+                                        "posX": 0.5,
+                                        "posY": 0.5,
+                                        "sizeX": 1.0,
+                                        "sizeY": 1.0,
+                                        "ratioMode": 10,
+                                        "angle": 0.0,
+                                        "smoothness": true,
+                                        "smoothType": 0,
+                                        "pod": 0.0
+                                    },
+                                    "dynamicNodes": []
+                                },
+                                "BaseTransform": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "angle": 0,
+                                    "vFlip": true
+                                },
+                                "ChromaKey": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "red": 0,
+                                    "green": 255,
+                                    "blue": 0,
+                                    "CHROMAKEY_TOLERANCE": 26,
+                                    "CHROMAKEY_SMOOTHNESS": 23,
+                                    "CHROMAKEY_EDGE_THICKNESS": 0,
+                                    "CHROMAKEY_EDGE_FEATHER": 0
+                                },
+                                "VideoLUT": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "LutName": ""
+                                },
+                                "ColorEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "COLOR_TEMPERATURE": 0.0,
+                                    "COLOR_TINT": 0.0,
+                                    "COLOR_EXPOSURE": 0.0,
+                                    "COLOR_BRIGHTNESS": 0.0,
+                                    "COLOR_CONTRAST": 0.0,
+                                    "COLOR_SATURATION": 0.0,
+                                    "COLOR_VIBRANCE": 0.0,
+                                    "COLOR_HIGHLIGHTS": 0.0,
+                                    "COLOR_SHADOWS": 0.0,
+                                    "COLOR_WHITES": 0.0,
+                                    "COLOR_BLACKS": 0.0,
+                                    "HSL_RED": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_ORANGE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_YELLOW": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_GREEN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_CYAN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_BLUE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_PURPLE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    }
+                                },
+                                "Sharpen": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "amount": 500,
+                                    "radius": 2,
+                                    "threshold": 0
+                                },
+                                "Denoise": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "enableDenoise": false,
+                                    "deviation": 5.0,
+                                    "coefficient": 2.0,
+                                    "edgeThreshold": 0.3,
+                                    "enableAutoLevel": false,
+                                    "autoLevelK1": 0.5
+                                },
+                                "VignetteEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "VIGNETTE_AMOUNT": 0,
+                                    "VIGNETTE_SIZE": 100,
+                                    "VIGNETTE_ROUNDNESS": 0,
+                                    "VIGNETTE_FEATHER": 50,
+                                    "VIGNETTE_INNER_LIGHT": 0
+                                },
+                                "VideoTransformer": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 309.162646,
+                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileCuttedDuration": 296.963646,
+                                        "blockDuration": 296.963646
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 1920,
+                                        "srcHeight": 1040,
+                                        "targetWidth": 1920,
+                                        "targetHeight": 1080,
+                                        "centerPosX": 0.5,
+                                        "centerPosY": 0.5,
+                                        "sizeX": 1.0,
+                                        "sizeY": 0.9629629629629628,
+                                        "angle": 0.0
+                                    },
+                                    "overlay": false,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 1.0,
+                                    "fadeInDirect": 255,
+                                    "fadeOutDirect": 255,
+                                    "baseInfoInited": true
+                                },
+                                "Compositing": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 309.162646,
+                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileCuttedDuration": 296.963646,
+                                        "blockDuration": 296.963646
+                                    },
+                                    "mode": 0,
+                                    "opacity": 1.0,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 1.0,
+                                    "fadeInEnabeld": false,
+                                    "fadeOutEnabled": false
+                                }
+                            },
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 1.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 309.162646,
+                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileCuttedDuration": 296.963646,
+                                        "handledTotalDuration": 309.162646,
+                                        "handledCuttedStart": 12.198999999999998,
+                                        "handledCuttedDuration": 296.963646
+                                    },
+                                    "curve": "TmM0AQYAAAAAAAAAqN4SQQEAAAAFAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAP8ffkUAAADg/8OvQAAAAAAAAAAAhSd+D0+Fx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcUE/l/9LHQAAAAAAAAAAAAQEAAAAAAAAcUE/l/9LHQAAAAAAAAAAAl9207P//7z8AAAAAAAAAAKxhG0Mf+61GZnrF4nHU4EAAAAAAAAAAAAAAABBoLuxAAAAAAAAAAAAcUE/l/9LHQAAAAAAAAAAAAAAAAKje8kAAAAAAAAAAAAEAAAAAAAAAAAAAAKje8kAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAB/7phGTSa1RgAAAGjah/hAAAAAAAAAAAAAAADMDgoAQQAAAAAAAAAAAAAAAKje8kAAAAAAAAAAAAAAAACo3gJBAAAAAAAAAAABAAAAAAAAAAAAAACo3gJBAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAATSa1Rk0mtUYAAAA0QbMFQQAAAAAAAAAAAAAAzGJ5CUEAAAAAAAAAAAAAAACo3gJBAAAAAAAAAAAAAAAA/E0MQQAAAAAAAAAAAQAAAAAAAAAAAAAA/E0MQQAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAE0mtUZNJrVGAAAANJUiD0EAAAAAAAAAAAAAAAAaTBFBAAAAAAAAAAAAAAAA/E0MQQAAAAAAAAAAAAAAAKjeEkEAAAAAAAAAAAEAAAAAAAAAAAAAAKjeEkEAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAR8lGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=="
+                                },
+                                "extraSpeed": 1.0,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    }
+                ],
                 "tstart": 0.0,
                 "tduration": 1.7976931348623157e308,
-                "context": 0.0,
+                "context": 296963.646,
                 "opacity": 100,
-                "mute": false
+                "mute": true
             },
             {
                 "title": "Overlay Track",
@@ -49,7 +352,7 @@
                         "tstart": 0.0,
                         "tduration": 14400.0,
                         "restype": "MediaFileResource",
-                        "resid": "6516D2C9F89C59B72B5E5AF9D9141268",
+                        "resid": "FD2FD9AAADC86FAE7F088AC07A65469E",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -89,55 +392,6 @@
                         }
                     },
                     {
-                        "title": "2_1_Intro",
-                        "type": "MediaFileBlock",
-                        "background": 1065483519,
-                        "foreground": 1216461823,
-                        "status": 0,
-                        "uuid": "{D2FA7225-1154-40EA-A73F-B22933C84B7E}",
-                        "tstart": 14400.0,
-                        "tduration": 24901.688,
-                        "restype": "MediaFileResource",
-                        "resid": "A6B57A4E82C37818AB594114659050E1",
-                        "attribute": {
-                            "version": 0,
-                            "type": 2,
-                            "videoIndex": -1,
-                            "audioIndex": 0,
-                            "videoEnabled": false,
-                            "audioEnabled": true,
-                            "VideoAttribute": null,
-                            "AudioAttribute": {
-                                "version": 0,
-                                "mute": false,
-                                "fadeInDuration": 0.0,
-                                "fadeOutDuration": 0.0,
-                                "multiple": 1.0,
-                                "pitch": 1.0,
-                                "pitchType": 1
-                            },
-                            "SpeedAttribute": {
-                                "version": 0,
-                                "reversePlay": false,
-                                "Speed": {
-                                    "version": 0,
-                                    "baseData": {
-                                        "version": 0,
-                                        "fileTotalDuration": 24.901688,
-                                        "fileCuttedStart": 0.0,
-                                        "fileCuttedDuration": 24.901688,
-                                        "handledTotalDuration": 24.901688,
-                                        "handledCuttedStart": 0.0,
-                                        "handledCuttedDuration": 24.901688
-                                    },
-                                    "curve": "TmM0AQUAAAAAAAAAQFHYQAAAAAAFAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAFWxAUUAAACgKjagQAAAAAAAAAAAAAAAyKwFsUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQFG4QAAAAAAAAAAAAQAAAAAAAAAAAAAAQFG4QAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAGdy6URnculEAAAAONOcv0AAAAAAAAAAAAAAAGR2q8RAAAAAAAAAAAAAAAAAQFG4QAAAAAAAAAAAAAAAAEBRyEAAAAAAAAAAAAEAAAAAAAAAAAAAAEBRyEAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAABnculEZ3LpRAAAAJwJ98tAAAAAAAAAAAAAAAAyC2rQQAAAAAAAAAAAAAAAAEBRyEAAAAAAAAAAAAAAAADwPNJAAAAAAAAAAAABAAAAAAAAAAAAAADwPNJAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAZ3LpRGdy6UQAAADO1A/UQAAAAAAAAAAAAAAArHpK1kAAAAAAAAAAAAAAAADwPNJAAAAAAAAAAAAAAAAAQFHYQAAAAAAAAAAAAQAAAAAAAAAAAAAAQFHYQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAFWxAUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA"
-                                },
-                                "extraSpeed": 1.0,
-                                "audioSpeedRate": false
-                            }
-                        }
-                    },
-                    {
                         "title": "2_2_Demand",
                         "type": "MediaFileBlock",
                         "background": 1653538047,
@@ -147,7 +401,7 @@
                         "tstart": 38966.66666666667,
                         "tduration": 29166.333333333336,
                         "restype": "MediaFileResource",
-                        "resid": "D5EB7A66F8F8C48374CB93659B1A9B48",
+                        "resid": "F868E98A015AC549CD158C91484217CC",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -174,10 +428,10 @@
                                         "version": 0,
                                         "fileTotalDuration": 29.966188,
                                         "fileCuttedStart": 0.0,
-                                        "fileCuttedDuration": 29.166333333333335,
+                                        "fileCuttedDuration": 29.16633333333334,
                                         "handledTotalDuration": 29.966188,
                                         "handledCuttedStart": 0.0,
-                                        "handledCuttedDuration": 29.166333333333335
+                                        "handledCuttedDuration": 29.16633333333334
                                     },
                                     "curve": "TmM0AQYAAAAAAAAAgEPdQAAAAAAFAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAKsSHEUAAABgVYKjQAAAAAAAAAAAAAAAwAx8tEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEO9QAAAAAAAAAAAAQAAAAAAAAAAAAAAgEO9QAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAADR3DEU0dwxFAAAAoHkFw0AAAAAAAAAAAAAAAGDG38hAAAAAAAAAAAAAAAAAgEO9QAAAAAAAAAAAAAAAAIBDzUAAAAAAAAAAAAEAAAAAAAAAAAAAAIBDzUAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAA0dwxFNHcMRQAAANCc09BAAAAAAAAAAAAAAAAww8DTQAAAAAAAAAAAAAAAAIBDzUAAAAAAAAAAAAAAAACg8tVAAAAAAAAAAAABAAAAAAAAAAAAAACg8tVAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAANHcMRWA2+0QAAADADOnXQAAAAAAAAAAAXfuTPVBD2kAAAAAAAAAAAAAAAACg8tVAAAAAAAAAAADJgvYDgHvcQAAAAAAAAAAAAQAAAAAAAADJgvYDgHvcQAAAAAAAAAAAo6i26P//7z8AAAAAAAAAAPILDkUAAAAAyYL2A4B73EAAAAAAAAAAAAAAgFbVAN1AAAAAAAAAAADJgvYDgHvcQAAAAAAAAAAAAAAAAIBD3UAAAAAAAAAAAAEAAAAAAAAAAAAAAIBD3UAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAABTVYVDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAA=="
                                 },
@@ -196,7 +450,7 @@
                         "tstart": 68133.0,
                         "tduration": 20027.124000000014,
                         "restype": "MediaFileResource",
-                        "resid": "CDA88F77C46B2A4D36084D74C170F692",
+                        "resid": "CB64B0B29B0362240A629AEF8CBE7429",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -245,7 +499,7 @@
                         "tstart": 88160.12400000001,
                         "tduration": 6686.876000000003,
                         "restype": "MediaFileResource",
-                        "resid": "05C243141A4714A365385AD3093D3B77",
+                        "resid": "A7F5A53734E71E94DECC7DFACF677ADC",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -291,10 +545,10 @@
                         "foreground": 1216461823,
                         "status": 0,
                         "uuid": "{035022F0-41CD-4B52-91B9-2C87AEABCFFB}",
-                        "tstart": 94847.00000000002,
-                        "tduration": 45203.50479182045,
+                        "tstart": 94847.0,
+                        "tduration": 13386.66666666666,
                         "restype": "MediaFileResource",
-                        "resid": "3CC71333349AF9CBA57C196BF43BE7C8",
+                        "resid": "A7B266BE2AB097C427A309DAC5CFB7B3",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -321,14 +575,112 @@
                                         "version": 0,
                                         "fileTotalDuration": 50.4,
                                         "fileCuttedStart": 0.87725,
-                                        "fileCuttedDuration": 49.52275,
-                                        "handledTotalDuration": 46.080865847608148,
-                                        "handledCuttedStart": 0.8773610557876975,
-                                        "handledCuttedDuration": 45.20350479182045
+                                        "fileCuttedDuration": 13.745694750272545,
+                                        "handledTotalDuration": 50.037096626753669,
+                                        "handledCuttedStart": 0.877361055783714,
+                                        "handledCuttedDuration": 13.386666667023516
                                     },
-                                    "curve": "TmM0AQMAAAAAAAAAAJzoQAEAAAACAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAd1Cv2///vPwAAAAAAAAAAAAAAAKsqkkOZW2NaVUVyQAAAAAAAAAAAYAmVn/Y4h0Dw79ohxDVBvwAAAAAAAAAAAAAAAAAAAABgCZUXAGiLQAAAAAAAAAAAAQEAAAAAAABgCZUXAGiLQAAAAAAAAAAAAAAAAAAA8D+KuzftRnTQPi/hBUMBQOxFllB5EYB6wEB/670JnV6eP2JxH7CKjOBA4ZrSvzrfwD9gCZUXAGiLQAAAAAAAAAAAAAAAAACc6ECzeFwX2E7JPwEAAAAAAAAAAAAAAACc6ECzeFwX2E7JP60rg////+8/EbuKPd++0D5V94BGAAAAAAAAAAgA/s9AAAAAAAAAAAAAAAD8/+rUQAAAAAAAAAAAAAAAAACcyEAAAAAAAAAAAAAAAAAAnNhAAAAAAAAAAAABAAAAAAAAAA=="
+                                    "curve": "TmM0AQUAAAAAAAAAAJzoQAEAAAACAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAKsqkkMAAABgVUVyQAAAAAAAAAAAAAAAiPY4h0Dw79ohxDVBvwAAAAAAAAAAAAAAAAAAAAAAAAAAAGiLQAAAAAAAAAAAAQEAAAAAAAAAAAAAAGiLQAAAAAAAAAAAAAAAAAAA8D+KuzftRnTQPi/hBUPl7yhFAAAAoPz3q0Cb+M6jc7eFP+ekoj5PvcBAgFwNHOM0nz8AAAAAAGiLQAAAAAAAAAAAGe12CwCPzEA4EnBLR/qrPwEAAAAAAAAAGe12CwCPzEA4EnBLR/qrP/pJavf//+8/Wy0pKm3A0D4NG71FAAAAABntdgsAj8xAOBJwS0f6qz8Z7XYLAI/MQAAAAAAAAAAAGe12CwCPzEA4EnBLR/qrPxntdgsAj8xAAAAAAAAAAAABAAAAAAAAABntdgsAj8xAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAABYOkaMdrsFAO3ZQAAAAAAAAAAAAAAAAEDJ4kAAAAAAAAAAABntdgsAj8xAAAAAAAAAAAAAAAAAAJzoQAAAAAAAAAAAAQEAAAAAAAAAAAAAAJzoQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAABYOkYAAAAAJijQVlVX3UAAAAAAAAAAAAAAAFjVo+NAAAAAAAAAAAAmKNAGAGfTQAAAAAAAAAAAAAAAAACc6EAAAAAAAAAAAAEBAAAAAAAA"
                                 },
-                                "extraSpeed": 1.0,
+                                "extraSpeed": 1.0000000000266574,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "3_1_Introducing-AI",
+                        "type": "MediaFileBlock",
+                        "background": 4243812863,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{736FBE4E-2782-4003-9875-31D9B6983468}",
+                        "tstart": 108233.66666666666,
+                        "tduration": 4926.333333333316,
+                        "restype": "MediaFileResource",
+                        "resid": "A7B266BE2AB097C427A309DAC5CFB7B3",
+                        "attribute": {
+                            "version": 0,
+                            "type": 2,
+                            "videoIndex": -1,
+                            "audioIndex": 0,
+                            "videoEnabled": false,
+                            "audioEnabled": true,
+                            "VideoAttribute": null,
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 5.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 50.4,
+                                        "fileCuttedStart": 14.622944750272544,
+                                        "fileCuttedDuration": 5.246022685158875,
+                                        "handledTotalDuration": 50.08212289768024,
+                                        "handledCuttedStart": 14.622944750272544,
+                                        "handledCuttedDuration": 4.930319678672484
+                                    },
+                                    "curve": "TmM0AQYAAAAAAAAAAJzoQAIAAAACAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAABQmEUAAAAAAAqzQAAAAAAAAAAAGe12CwAKw0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZ7XYLAI/MQAAAAAAAAAAAAQEAAAAAAAAZ7XYLAI/MQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAABQmEUAAAAAGe12CwCPzEAAAAAAAAAAABntdgsAj8xAOBJwS0f6qz8Z7XYLAI/MQAAAAAAAAAAAGe12CwCPzEA4EnBLR/qrPwEBAAAAAAAAGe12CwCPzEA4EnBLR/qrP/pJavf//+8/Wy0pKm3A0D4AAAAAnn/RRPMcloL+1M9AVsyFBqRnrz+p1m7x1aHRQMgaO6EagLE/Ge12CwCPzEA4EnBLR/qrPyYo0AYAZ9NAbqVQCRJbsz8BAAAAAAAAACYo0AYAZ9NAbqVQCRJbsz9vhnkMAADwP6L7N78PxdA+CpXiRAAAAAAmKNAGAGfTQG6lUAkSW7M/JijQBgBn00AAAAAAAAAAACYo0AYAZ9NAbqVQCRJbsz8mKNAGAGfTQAAAAAAAAAAAAQAAAAAAAAAmKNAGAGfTQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAABVBR9GJijQVlVX3UAAAAAAAAAAAAAAAFjVo+NAAAAAAAAAAAAmKNAGAGfTQAAAAAAAAAAAAAAAAACc6EAAAAAAAAAAAAEBAAAAAAAAAAAAAACc6EAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAABVBR9GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAA=="
+                                },
+                                "extraSpeed": 1.0008091911507889,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "3_1_Introducing-AI",
+                        "type": "MediaFileBlock",
+                        "background": 4243812863,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{4B1D6962-082B-44E0-B72E-FB21047C63A9}",
+                        "tstart": 113160.0,
+                        "tduration": 26890.50479182047,
+                        "restype": "MediaFileResource",
+                        "resid": "A7B266BE2AB097C427A309DAC5CFB7B3",
+                        "attribute": {
+                            "version": 0,
+                            "type": 2,
+                            "videoIndex": -1,
+                            "audioIndex": 0,
+                            "videoEnabled": false,
+                            "audioEnabled": true,
+                            "VideoAttribute": null,
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 5.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 50.4,
+                                        "fileCuttedStart": 19.86896743543144,
+                                        "fileCuttedDuration": 30.53103256456857,
+                                        "handledTotalDuration": 46.76164631789293,
+                                        "handledCuttedStart": 19.86896743543144,
+                                        "handledCuttedDuration": 26.892678882461494
+                                    },
+                                    "curve": "TmM0AQQAAAAAAAAAAJzoQAIAAAACAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAFb1zkUAAADAqt65QAAAAAAAAAAATFCgrareyUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmKNAGAGfTQAAAAAAAAAAAAQEAAAAAAAAmKNAGAGfTQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAFb1zkUAAAAAJijQBgBn00AAAAAAAAAAACYo0AYAZ9NAbqVQCRJbsz8mKNAGAGfTQAAAAAAAAAAAJijQBgBn00BupVAJEluzPwEBAAAAAAAAJijQBgBn00BupVAJEluzP2+GeQwAAPA/ovs3vw/F0D4AAAAAFG8bRjYmY07xHd1AAK9QU6mJvT9WFhG4ozrkQG4itok6ucQ/JijQBgBn00BupVAJEluzPwAAAAAAnOhAs3hcF9hOyT8BAAAAAAAAAAAAAAAAnOhAs3hcF9hOyT+tK4P////vPxG7ij3fvtA+iSsMRgAAAAAAAAAIAP7PQAAAAAAAAAAAAAAA/P/q1EAAAAAAAAAAAAAAAAAAnMhAAAAAAAAAAAAAAAAAAJzYQAAAAAAAAAAAAQAAAAAAAAA="
+                                },
+                                "extraSpeed": 1.0000808497519054,
                                 "audioSpeedRate": false
                             }
                         }
@@ -341,9 +693,9 @@
                         "status": 0,
                         "uuid": "{EC40B440-EA13-43C3-B21A-9F8139E55A84}",
                         "tstart": 140050.50479182049,
-                        "tduration": 61162.41626131398,
+                        "tduration": 9536.161874846175,
                         "restype": "MediaFileResource",
-                        "resid": "DDAA6EB96AA8B8E130410D4CF200755A",
+                        "resid": "68CAB48A7875E16E2DF709DB988540AA",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -369,30 +721,30 @@
                                     "baseData": {
                                         "version": 0,
                                         "fileTotalDuration": 68.568,
-                                        "fileCuttedStart": 1.6143759999999603,
-                                        "fileCuttedDuration": 65.80625000000002,
-                                        "handledTotalDuration": 63.82802757562921,
-                                        "handledCuttedStart": 1.5751620446917969,
-                                        "handledCuttedDuration": 61.16241626131398
+                                        "fileCuttedStart": 1.6143759999999606,
+                                        "fileCuttedDuration": 10.124893295884462,
+                                        "handledTotalDuration": 67.97663856996572,
+                                        "handledCuttedStart": 1.6143759999999606,
+                                        "handledCuttedDuration": 9.537192723053604
                                     },
-                                    "curve": "TmM0AQQAAAAAAAAAgL3wQAEAAAACAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAACABkQAAAAAANCAQAAAAAAAAAAAwt8hMNlXlUC1CiNE9iWvPwAAAAAAAAAAAAAAAAAAAAAAAAAAADiZQLUKI0T2Ja8/AQEAAAAAAAAAAAAAADiZQLUKI0T2Ja8/AU/o/v//7z8AAAAAAAAAALQJeEMABB5GZFxT/3/nxkC1CiNE9iWvP6ZE4MYcBOxACEgas3hctz8AAAAAADiZQLUKI0T2Ja8/UyJw/7918EAISBqzeFy3PwEBAAAAAAAAUyJw/7918EAISBqzeFy3PwEAAAAAAPA/AAAAAAAAAABn7BxGQDQvQ1MicEOzgPBACEgas3hctz8cthpVlaXwQHhfB1L2JZ8/UyJw/7918EAISBqzeFy3PwAAAACAvfBAAAAAAAAAAAABAQAAAAAAAAAAAACAvfBAAAAAAAAAAABNvYkDAADwP7VrDyR/1hS/V1W/QwAAAAAAAAA0U0DjQAAAAAAAAAAAAAAAzGyZ5kAAAAAAAAAAAAAAAACAveBAAAAAAAAAAAAAAAAAQBzpQAAAAAAAAAAAAQAAAAAAAAA="
+                                    "curve": "TmM0AQYAAAAAAAAAgL3wQAEAAAADAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAACABkQAAAAAANCAQAAAAAAAAAAAAAAAAADQkEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADiZQAAAAAAAAAAAAQEAAAAAAAAAAAAAADiZQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAACABkQAAAAAAAAAAAA4mUAAAAAAAAAAAAAAAAAAOJlAtQojRPYlrz8AAAAAADiZQAAAAAAAAAAAAAAAAAA4mUC1CiNE9iWvPwEBAAAAAAAAAAAAAAA4mUC1CiNE9iWvPwFP6P7//+8/AAAAAAAAAAAAAAAA1u4BRd8Kcr/a2axAtQojRPYlrz8tkjUZm2m8QHnsmapyzq8/AAAAAAA4mUC1CiNE9iWvP9G8+e//7MZAF7Is8RJtsD8BAQAAAAAAANG8+e//7MZAF7Is8RJtsD9WfC8GAADwP+gv6riEs54+JoOLRQAAAADRvPnv/+zGQBeyLPESbbA/0bz57//sxkAAAAAAAAAAANG8+e//7MZAF7Is8RJtsD/RvPnv/+zGQAAAAAAAAAAAAQAAAAAAAADRvPnv/+zGQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAACr/pNGaN78V1X23UAAAAAAAAAAAAAAAFAVO+hAAAAAAAAAAADRvPnv/+zGQAAAAAAAAAAAAAAAAIC98EAAAAAAAAAAAAEBAAAAAAAAAAAAAIC98EAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAACr/pNGAAAAAHrYzmQVhOtAAAAAAAAAAAAAAACwin/uQAAAAAAAAAAAetjOFKCI6EAAAAAAAAAAAAAAAACAvfBAAAAAAAAAAAABAQAAAAAAAA=="
                                 },
-                                "extraSpeed": 1.0,
+                                "extraSpeed": 1.0001080988579006,
                                 "audioSpeedRate": false
                             }
                         }
                     },
                     {
-                        "title": "4_1_Intro-Let-Take-Step-Further1",
+                        "title": "3_2_Time-Is-crucial",
                         "type": "MediaFileBlock",
-                        "background": 435748095,
+                        "background": 1576821503,
                         "foreground": 1216461823,
                         "status": 0,
-                        "uuid": "{D08B96D5-05B2-44F9-94A8-65B49D25F5BE}",
-                        "tstart": 201212.92105313447,
-                        "tduration": 17725.070443442437,
+                        "uuid": "{0EB4B7C9-DF4F-4F35-88B4-ECF76407332C}",
+                        "tstart": 149586.6666666667,
+                        "tduration": 13819.999999999996,
                         "restype": "MediaFileResource",
-                        "resid": "13F9D91718DBDD0721CCF169F0C1C62D",
+                        "resid": "68CAB48A7875E16E2DF709DB988540AA",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -406,7 +758,154 @@
                                 "mute": false,
                                 "fadeInDuration": 0.0,
                                 "fadeOutDuration": 0.0,
-                                "multiple": 1.0,
+                                "multiple": 5.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 68.568,
+                                        "fileCuttedStart": 11.739269295884429,
+                                        "fileCuttedDuration": 14.756120683643353,
+                                        "handledTotalDuration": 67.63447653880704,
+                                        "handledCuttedStart": 11.739269295884429,
+                                        "handledCuttedDuration": 13.82290533449382
+                                    },
+                                    "curve": "TmM0AQYAAAAAAAAAgL3wQAEAAAADAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAP+PdEUAAADg/5GuQAAAAAAAAAAAHEd76f+RvkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACOo73sf+3GQAAAAAAAAAAAAQEAAAAAAACOo73sf+3GQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAP+PdEUAAAAAjqO97H/txkAAAAAAAAAAAI6jvex/7cZAK1D+hBptsD+Oo73sf+3GQAAAAAAAAAAAjqO97H/txkArUP6EGm2wPwEBAAAAAAAAjqO97H/txkArUP6EGm2wP5s6zv///+8/nuJRp7iznj4AAAAAY/OFRR6esBy2TM9AXPYzAJ/tsD9un/CvmqHUQJ/afFfdm7E/jqO97H/txkArUP6EGm2wP9IC8QHA39lA+k1pKS5Zsj8BAAAAAAAAANIC8QHA39lA+k1pKS5Zsj+6uBsGAADwP/nIkPASDqI+qsSnRQAAAADSAvEBwN/ZQPpNaSkuWbI/0gLxAcDf2UAAAAAAAAAAANIC8QHA39lA+k1pKS5Zsj/SAvEBwN/ZQAAAAAAAAAAAAQAAAAAAAADSAvEBwN/ZQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAABVIVtGaYH4qOrI40AAAAAAAAAAAAAAAFj1oepAAAAAAAAAAADSAvEBwN/ZQAAAAAAAAAAAAAAAAIC98EAAAAAAAAAAAAEBAAAAAAAAAAAAAIC98EAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAABVIVtGAAAAAHrYzmQVhOtAAAAAAAAAAAAAAACwin/uQAAAAAAAAAAAetjOFKCI6EAAAAAAAAAAAAAAAACAvfBAAAAAAAAAAAABAQAAAAAAAA=="
+                                },
+                                "extraSpeed": 1.0002102268085256,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "3_2_Time-Is-crucial",
+                        "type": "MediaFileBlock",
+                        "background": 1576821503,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{8FFD7266-97C4-44B9-895F-F8CFF90F46DD}",
+                        "tstart": 163406.6666666667,
+                        "tduration": 22026.333333333336,
+                        "restype": "MediaFileResource",
+                        "resid": "68CAB48A7875E16E2DF709DB988540AA",
+                        "attribute": {
+                            "version": 0,
+                            "type": 2,
+                            "videoIndex": -1,
+                            "audioIndex": 0,
+                            "videoEnabled": false,
+                            "audioEnabled": true,
+                            "VideoAttribute": null,
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 5.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 68.568,
+                                        "fileCuttedStart": 26.495389979527788,
+                                        "fileCuttedDuration": 23.75095959310554,
+                                        "handledTotalDuration": 66.84413515231639,
+                                        "handledCuttedStart": 26.495389979527788,
+                                        "handledCuttedDuration": 22.03127198125693
+                                    },
+                                    "curve": "TmM0AQYAAAAAAAAAgL3wQAIAAAACAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAKv+CUYAAABg1T/BQAAAAAAAAAAA0gLxUdU/0UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSAvEBwN/ZQAAAAAAAAAAAAQEAAAAAAADSAvEBwN/ZQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAKv+CUYAAAAA0gLxAcDf2UAAAAAAAAAAANIC8QHA39lA+k1pKS5Zsj/SAvEBwN/ZQAAAAAAAAAAA0gLxAcDf2UD6TWkpLlmyPwEBAAAAAAAA0gLxAcDf2UD6TWkpLlmyP7q4GwYAAPA/+ciQ8BIOoj4AAAAAWX33RaJwcmbVzeBA3kkt4HRwsz8TgggElfTkQPS211mIqLQ/0gLxAcDf2UD6TWkpLlmyP3rYzhSgiOhAtj3TnACftT8BAAAAAAAAAHrYzhSgiOhAtj3TnACftT/p2HYDAADwP/8lHLRDOKE+xALlRQAAAAB62M4UoIjoQLY905wAn7U/etjOFKCI6EAAAAAAAAAAAHrYzhSgiOhAtj3TnACftT962M4UoIjoQAAAAAAAAAAAAQAAAAAAAAB62M4UoIjoQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAABU3b5FetjOZBWE60AAAAAAAAAAAAAAALCKf+5AAAAAAAAAAAB62M4UoIjoQAAAAAAAAAAAAAAAAIC98EAAAAAAAAAAAAEBAAAAAAAAAAAAAIC98EAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAABU3b5FAAAAAHrYzmQVhOtAAAAAAAAAAAAAAACwin/uQAAAAAAAAAAAetjOFKCI6EAAAAAAAAAAAAAAAACAvfBAAAAAAAAAAAABAQAAAAAAAA=="
+                                },
+                                "extraSpeed": 1.0002242156172277,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "3_2_Time-Is-crucial",
+                        "type": "MediaFileBlock",
+                        "background": 1576821503,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{FB88135F-E5BD-4D0B-AC22-0926F6952B8D}",
+                        "tstart": 185433.0,
+                        "tduration": 15779.921053134458,
+                        "restype": "MediaFileResource",
+                        "resid": "68CAB48A7875E16E2DF709DB988540AA",
+                        "attribute": {
+                            "version": 0,
+                            "type": 2,
+                            "videoIndex": -1,
+                            "audioIndex": 0,
+                            "videoEnabled": false,
+                            "audioEnabled": true,
+                            "VideoAttribute": null,
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 5.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 68.568,
+                                        "fileCuttedStart": 50.24634957263332,
+                                        "fileCuttedDuration": 17.174276427366665,
+                                        "handledTotalDuration": 67.17118431271378,
+                                        "handledCuttedStart": 50.24634957263332,
+                                        "handledCuttedDuration": 15.78409828453971
+                                    },
+                                    "curve": "TmM0AQYAAAAAAAAAgL3wQAIAAAACAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAFbZgkYAAADAKlvQQAAAAAAAAAAAVP8yqCpb4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABU/zIIwIjoQAAAAAAAAAAAAQEAAAAAAABU/zIIwIjoQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAFbZgkYAAAAAVP8yCMCI6EAAAAAAAAAAAFT/MgjAiOhAjmClMwmftT9U/zIIwIjoQAAAAAAAAAAAVP8yCMCI6ECOYKUzCZ+1PwEBAAAAAAAAVP8yCMCI6ECOYKUzCZ+1PzG7W+z//+8/K0Ytxjg4oT4AAAAA0pXwRW1P5E0XS+xAWabUxPWhtj+mROC+gWvvQAhIGrN4XLc/VP8yCMCI6ECOYKUzCZ+1P1MicP+/dfBACEgas3hctz8BAAAAAAAAAFMicP+/dfBACEgas3hctz8BAAAAAADwPwAAAAAAAAAAIP8/RQAAAABTInD/v3XwQAhIGrN4XLc/UyJw/7918EAAAAAAAAAAAFMicP+/dfBACEgas3hctz9TInD/v3XwQAAAAAAAAAAAAQEAAAAAAABTInD/v3XwQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAABXVb9DUyJQqqqN8EAAAAAAAAAAAAAAIFWVpfBAAAAAAAAAAABTInD/v3XwQAAAAAAAAAAAAAAAAIC98EAAAAAAAAAAAAEBAAAAAAAAAAAAAIC98EAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAABXVb9DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAA=="
+                                },
+                                "extraSpeed": 1.0002647181434677,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "4_1_Intro-Let-Take-Step-Further1",
+                        "type": "MediaFileBlock",
+                        "background": 435748095,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{D08B96D5-05B2-44F9-94A8-65B49D25F5BE}",
+                        "tstart": 201212.9210531345,
+                        "tduration": 17725.070443442437,
+                        "restype": "MediaFileResource",
+                        "resid": "D4946BC93472CEF4FF40739B01D8C70F",
+                        "attribute": {
+                            "version": 0,
+                            "type": 2,
+                            "videoIndex": -1,
+                            "audioIndex": 0,
+                            "videoEnabled": false,
+                            "audioEnabled": true,
+                            "VideoAttribute": null,
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 1.25,
                                 "pitch": 1.0,
                                 "pitchType": 1
                             },
@@ -441,7 +940,7 @@
                         "tstart": 218937.9914965769,
                         "tduration": 17043.92253623472,
                         "restype": "MediaFileResource",
-                        "resid": "D569E07ACCB70593C21D70BB7BB7BDE6",
+                        "resid": "27FE6BEAD1BDCF749BAF81447255D215",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -455,7 +954,7 @@
                                 "mute": false,
                                 "fadeInDuration": 0.0,
                                 "fadeOutDuration": 0.0,
-                                "multiple": 1.0,
+                                "multiple": 1.25,
                                 "pitch": 1.0,
                                 "pitchType": 1
                             },
@@ -485,12 +984,12 @@
                         "type": "MediaFileBlock",
                         "background": 1996276479,
                         "foreground": 1216461823,
-                        "status": 1,
+                        "status": 0,
                         "uuid": "{9A585801-C417-48B3-A5B9-9F932775BDE2}",
-                        "tstart": 235981.91403281163,
+                        "tstart": 258850.77849347765,
                         "tduration": 20988.904064177932,
                         "restype": "MediaFileResource",
-                        "resid": "20D83F9C8183E0023C9779DB4B9DFA87",
+                        "resid": "6964C46BA3D7C3913D5675D1ACFDF900",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -504,7 +1003,7 @@
                                 "mute": false,
                                 "fadeInDuration": 0.0,
                                 "fadeOutDuration": 0.0,
-                                "multiple": 1.0,
+                                "multiple": 1.25,
                                 "pitch": 1.0,
                                 "pitchType": 1
                             },
@@ -536,10 +1035,10 @@
                         "foreground": 1216461823,
                         "status": 0,
                         "uuid": "{4BD07C66-D14F-4F7F-88C8-98788823DF2C}",
-                        "tstart": 256970.81809698957,
+                        "tstart": 235981.91403281169,
                         "tduration": 22868.86446066607,
                         "restype": "MediaFileResource",
-                        "resid": "611A6688412D29B141362B1B613FC86C",
+                        "resid": "0D889BF02A8F6EA23BCD51EB0B8A936E",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -553,7 +1052,7 @@
                                 "mute": false,
                                 "fadeInDuration": 0.0,
                                 "fadeOutDuration": 0.0,
-                                "multiple": 1.0,
+                                "multiple": 1.25,
                                 "pitch": 1.0,
                                 "pitchType": 1
                             },
@@ -588,7 +1087,56 @@
                         "tstart": 279839.6825576556,
                         "tduration": 15299.999999999996,
                         "restype": "MediaFileResource",
-                        "resid": "6CD6591402674F867C80F2727B0464C1",
+                        "resid": "87EDEF69BE94EAE1CBBC5804F9D27430",
+                        "attribute": {
+                            "version": 0,
+                            "type": 2,
+                            "videoIndex": -1,
+                            "audioIndex": 0,
+                            "videoEnabled": false,
+                            "audioEnabled": true,
+                            "VideoAttribute": null,
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 1.25,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 17.371429,
+                                        "fileCuttedStart": 0.633,
+                                        "fileCuttedDuration": 15.299999999999998,
+                                        "handledTotalDuration": 17.371429,
+                                        "handledCuttedStart": 0.633,
+                                        "handledCuttedDuration": 15.299999999999998
+                                    },
+                                    "curve": "TmM0AQcAAAAAAAAAwPbQQAEAAAAFAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAP//UkMAAADg/19qQAAAAAAAAAAArx35T889ekAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASVXnz/8eDQAAAAAAAAAAAAQEAAAAAAAASVXnz/8eDQAAAAAAAAAAAMqJgCAAA8D8AAAAAAAAAAAkjVUMjZJ5EiIAaZISwnUAAAAAAAAAAAAAAAJAGN6lAAAAAAAAAAAASVXnz/8eDQAAAAAAAAAAAAAAAAMD2sEAAAAAAAAAAAAEAAAAAAAAAAAAAAMD2sEAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAACXZ4tEZ9qiRAAAADiTDbZAAAAAAAAAAAAAAADIrNa8QAAAAAAAAAAAAAAAAMD2sEAAAAAAAAAAAAAAAADA9sBAAAAAAAAAAAABAAAAAAAAAAAAAADA9sBAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAZ9qiRGfaokQAAACcKYLDQAAAAAAAAAAAAAAAZLbmxkAAAAAAAAAAAAAAAADA9sBAAAAAAAAAAAAAAAAAIHLJQAAAAAAAAAAAAQAAAAAAAAAAAAAAIHLJQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAGfaokRoGFxEAAAA0FAqy0AAAAAAAAAAAD0zAKubJM1AAAAAAAAAAAAAAAAAIHLJQAAAAAAAAAAAZvGTAgAez0AAAAAAAAAAAAEAAAAAAAAAZvGTAgAez0AAAAAAAAAAAM08Jfn//+8/AAAAAAAAAAAssnxEAAAAAGbxkwIAHs9AAAAAAAAAAAAAAABW1X7QQAAAAAAAAAAAZvGTAgAez0AAAAAAAAAAAAAAAADA9tBAAAAAAAAAAAABAAAAAAAAAAAAAADA9tBAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAVNXvQwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAA="
+                                },
+                                "extraSpeed": 1.0,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "2_1_Intro",
+                        "type": "MediaFileBlock",
+                        "background": 1022557439,
+                        "foreground": 1216461823,
+                        "status": 1,
+                        "uuid": "{70EAA0CE-65D1-4B99-BF5A-E75CA02A8639}",
+                        "tstart": 14400.0,
+                        "tduration": 24901.688,
+                        "restype": "MediaFileResource",
+                        "resid": "353F9A0987BBEC5DC70CE74FF8223B3E",
                         "attribute": {
                             "version": 0,
                             "type": 2,
@@ -613,14 +1161,14 @@
                                     "version": 0,
                                     "baseData": {
                                         "version": 0,
-                                        "fileTotalDuration": 17.371429,
-                                        "fileCuttedStart": 0.633,
-                                        "fileCuttedDuration": 15.299999999999998,
-                                        "handledTotalDuration": 17.371429,
-                                        "handledCuttedStart": 0.633,
-                                        "handledCuttedDuration": 15.299999999999998
+                                        "fileTotalDuration": 24.901688,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 24.901688,
+                                        "handledTotalDuration": 24.901688,
+                                        "handledCuttedStart": 0.0,
+                                        "handledCuttedDuration": 24.901688
                                     },
-                                    "curve": "TmM0AQcAAAAAAAAAwPbQQAEAAAAFAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAP//UkMAAADg/19qQAAAAAAAAAAArx35T889ekAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASVXnz/8eDQAAAAAAAAAAAAQEAAAAAAAASVXnz/8eDQAAAAAAAAAAAMqJgCAAA8D8AAAAAAAAAAAkjVUMjZJ5EiIAaZISwnUAAAAAAAAAAAAAAAJAGN6lAAAAAAAAAAAASVXnz/8eDQAAAAAAAAAAAAAAAAMD2sEAAAAAAAAAAAAEAAAAAAAAAAAAAAMD2sEAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAACXZ4tEZ9qiRAAAADiTDbZAAAAAAAAAAAAAAADIrNa8QAAAAAAAAAAAAAAAAMD2sEAAAAAAAAAAAAAAAADA9sBAAAAAAAAAAAABAAAAAAAAAAAAAADA9sBAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAZ9qiRGfaokQAAACcKYLDQAAAAAAAAAAAAAAAZLbmxkAAAAAAAAAAAAAAAADA9sBAAAAAAAAAAAAAAAAAIHLJQAAAAAAAAAAAAQAAAAAAAAAAAAAAIHLJQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAGfaokRoGFxEAAAA0FAqy0AAAAAAAAAAAD0zAKubJM1AAAAAAAAAAAAAAAAAIHLJQAAAAAAAAAAAZvGTAgAez0AAAAAAAAAAAAEAAAAAAAAAZvGTAgAez0AAAAAAAAAAAM08Jfn//+8/AAAAAAAAAAAssnxEAAAAAGbxkwIAHs9AAAAAAAAAAAAAAABW1X7QQAAAAAAAAAAAZvGTAgAez0AAAAAAAAAAAAAAAADA9tBAAAAAAAAAAAABAAAAAAAAAAAAAADA9tBAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAVNXvQwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAA="
+                                    "curve": "TmM0AQUAAAAAAAAAQFHYQAAAAAAFAAAABwAAAP////8AAMhB+38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAFWxAUUAAACgKjagQAAAAAAAAAAAAAAAyKwFsUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQFG4QAAAAAAAAAAAAQAAAAAAAAAAAAAAQFG4QAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAGdy6URnculEAAAAONOcv0AAAAAAAAAAAAAAAGR2q8RAAAAAAAAAAAAAAAAAQFG4QAAAAAAAAAAAAAAAAEBRyEAAAAAAAAAAAAEAAAAAAAAAAAAAAEBRyEAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAABnculEZ3LpRAAAAJwJ98tAAAAAAAAAAAAAAAAyC2rQQAAAAAAAAAAAAAAAAEBRyEAAAAAAAAAAAAAAAADwPNJAAAAAAAAAAAABAAAAAAAAAAAAAADwPNJAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAZ3LpRGdy6UQAAADO1A/UQAAAAAAAAAAAAAAArHpK1kAAAAAAAAAAAAAAAADwPNJAAAAAAAAAAAAAAAAAQFHYQAAAAAAAAAAAAQAAAAAAAAAAAAAAQFHYQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAFWxAUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA"
                                 },
                                 "extraSpeed": 1.0,
                                 "audioSpeedRate": false
@@ -647,7 +1195,7 @@
         ],
         "tstart": 0.0,
         "tduration": 1.7976931348623157e308,
-        "context": 295139.6825576556,
+        "context": 296963.646,
         "connect": {}
     },
     "projinfo": {
@@ -657,9 +1205,9 @@
             "year": 2025,
             "month": 3,
             "day": 16,
-            "hour": 13,
-            "minute": 13,
-            "second": 37
+            "hour": 16,
+            "minute": 40,
+            "second": 18
         },
         "player": {
             "version": 0,
@@ -680,7 +1228,17 @@
     "videolist": {
         "title": "Video",
         "type": "ResourceLists",
-        "status": 0
+        "status": 0,
+        "subitems": [
+            {
+                "title": "Presentation",
+                "type": "MediaFileResource",
+                "status": 0,
+                "uuid": "7A0931FB17607DAF0D8A2A70CF8BC4C9",
+                "path": "E:/Projects/arch-kata/resources/presentation/Slides.mp4",
+                "duration": 309.162646
+            }
+        ]
     },
     "audiolist": {
         "title": "Music",
@@ -691,121 +1249,97 @@
                 "title": "1_1_Team",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "6516D2C9F89C59B72B5E5AF9D9141268",
-                "path": "E:/Projects/arch-kata/presentation/1_1_Team.m4a",
+                "uuid": "FD2FD9AAADC86FAE7F088AC07A65469E",
+                "path": "E:/Projects/arch-kata/resources/presentation/1_1_Team.m4a",
                 "duration": 15.238
-            },
-            {
-                "title": "2_1_Intro",
-                "type": "MediaFileResource",
-                "status": 0,
-                "uuid": "A6B57A4E82C37818AB594114659050E1",
-                "path": "E:/Projects/arch-kata/presentation/2_1_Intro.m4a",
-                "duration": 24.901688
             },
             {
                 "title": "2_2_Demand",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "D5EB7A66F8F8C48374CB93659B1A9B48",
-                "path": "E:/Projects/arch-kata/presentation/2_2_Demand.m4a",
+                "uuid": "F868E98A015AC549CD158C91484217CC",
+                "path": "E:/Projects/arch-kata/resources/presentation/2_2_Demand.m4a",
                 "duration": 29.966188
             },
             {
                 "title": "2_3_Throughput_1",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "CDA88F77C46B2A4D36084D74C170F692",
-                "path": "E:/Projects/arch-kata/presentation/2_3_Throughput_1.m4a",
+                "uuid": "CB64B0B29B0362240A629AEF8CBE7429",
+                "path": "E:/Projects/arch-kata/resources/presentation/2_3_Throughput_1.m4a",
                 "duration": 27.564438
             },
             {
                 "title": "2_3_Throughtput_2",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "05C243141A4714A365385AD3093D3B77",
-                "path": "E:/Projects/arch-kata/presentation/2_3_Throughtput_2.m4a",
+                "uuid": "A7F5A53734E71E94DECC7DFACF677ADC",
+                "path": "E:/Projects/arch-kata/resources/presentation/2_3_Throughtput_2.m4a",
                 "duration": 7.1735
-            },
-            {
-                "title": "2_4_Over",
-                "type": "MediaFileResource",
-                "status": 0,
-                "uuid": "369F3094A104C502FBCC6852B2215C17",
-                "path": "E:/Projects/arch-kata/presentation/2_4_Over.m4a",
-                "duration": 3.00975
             },
             {
                 "title": "3_1_Introducing-AI",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "3CC71333349AF9CBA57C196BF43BE7C8",
-                "path": "E:/Projects/arch-kata/presentation/3_1_Introducing-AI.mp3",
+                "uuid": "A7B266BE2AB097C427A309DAC5CFB7B3",
+                "path": "E:/Projects/arch-kata/resources/presentation/3_1_Introducing-AI.mp3",
                 "duration": 50.4
             },
             {
                 "title": "3_2_Time-Is-crucial",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "DDAA6EB96AA8B8E130410D4CF200755A",
-                "path": "E:/Projects/arch-kata/presentation/3_2_Time-Is-crucial.mp3",
+                "uuid": "68CAB48A7875E16E2DF709DB988540AA",
+                "path": "E:/Projects/arch-kata/resources/presentation/3_2_Time-Is-crucial.mp3",
                 "duration": 68.568
-            },
-            {
-                "title": "3_3_Bonus",
-                "type": "MediaFileResource",
-                "status": 0,
-                "uuid": "40C020F088711F68C57CB4A40CF050FC",
-                "path": "E:/Projects/arch-kata/presentation/3_3_Bonus.mp3",
-                "duration": 40.536
-            },
-            {
-                "title": "4_0_Thanks-Krzystof",
-                "type": "MediaFileResource",
-                "status": 0,
-                "uuid": "36D2496163933E35B1E3EA89D2123253",
-                "path": "E:/Projects/arch-kata/presentation/4_0_Thanks-Krzystof.mp3",
-                "duration": 2.533878
             },
             {
                 "title": "4_1_Intro-Let-Take-Step-Further1",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "13F9D91718DBDD0721CCF169F0C1C62D",
-                "path": "E:/Projects/arch-kata/presentation/4_1_Intro-Let-Take-Step-Further1.mp3",
+                "uuid": "D4946BC93472CEF4FF40739B01D8C70F",
+                "path": "E:/Projects/arch-kata/resources/presentation/4_1_Intro-Let-Take-Step-Further1.mp3",
                 "duration": 20.297143
             },
             {
                 "title": "4_2_Prompt-Accuracy-Monitoring1",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "D569E07ACCB70593C21D70BB7BB7BDE6",
-                "path": "E:/Projects/arch-kata/presentation/4_2_Prompt-Accuracy-Monitoring1.mp3",
+                "uuid": "27FE6BEAD1BDCF749BAF81447255D215",
+                "path": "E:/Projects/arch-kata/resources/presentation/4_2_Prompt-Accuracy-Monitoring1.mp3",
                 "duration": 19.983673469387754
             },
             {
                 "title": "4_3_Cross-Check-For-Test-Updates2",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "20D83F9C8183E0023C9779DB4B9DFA87",
-                "path": "E:/Projects/arch-kata/presentation/4_3_Cross-Check-For-Test-Updates2.mp3",
+                "uuid": "6964C46BA3D7C3913D5675D1ACFDF900",
+                "path": "E:/Projects/arch-kata/resources/presentation/4_3_Cross-Check-For-Test-Updates2.mp3",
                 "duration": 25.939592
             },
             {
                 "title": "4_4_Pass-Rate-Analysis2",
                 "type": "MediaFileResource",
                 "status": 0,
-                "uuid": "611A6688412D29B141362B1B613FC86C",
-                "path": "E:/Projects/arch-kata/presentation/4_4_Pass-Rate-Analysis2.mp3",
+                "uuid": "0D889BF02A8F6EA23BCD51EB0B8A936E",
+                "path": "E:/Projects/arch-kata/resources/presentation/4_4_Pass-Rate-Analysis2.mp3",
                 "duration": 25.939592
             },
             {
                 "title": "4_5_Conclusion",
                 "type": "MediaFileResource",
-                "status": 1,
-                "uuid": "6CD6591402674F867C80F2727B0464C1",
-                "path": "E:/Projects/arch-kata/presentation/4_5_Conclusion.mp3",
+                "status": 0,
+                "uuid": "87EDEF69BE94EAE1CBBC5804F9D27430",
+                "path": "E:/Projects/arch-kata/resources/presentation/4_5_Conclusion.mp3",
                 "duration": 17.371429
+            },
+            {
+                "title": "2_1_Intro",
+                "type": "MediaFileResource",
+                "status": 1,
+                "uuid": "353F9A0987BBEC5DC70CE74FF8223B3E",
+                "path": "E:/Projects/arch-kata/resources/presentation/2_1_Intro.m4a",
+                "duration": 24.901688
             }
         ]
     },
