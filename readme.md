@@ -11,7 +11,8 @@ A group of passionate professionals from Endava Poland. Our team consists of the
 
 ## 🎥 Video Presentation
 
-**Embedded video here.**
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=abkjUuNwyFc" target="_blank"><img src="http://img.youtube.com/vi/abkjUuNwyFc/0.jpg" 
+alt="Presentation Video" width="500" /></a>
 
 ## 📑 Table of Content
 
