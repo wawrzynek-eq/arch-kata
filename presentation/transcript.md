@@ -1,4 +1,4 @@
-# Video Presentation Transcript
+# Video Presentation Transcript (slides prepared with Prezi here: https://prezi.com/p/edit/mggyhciusnxz/)
 
 ## [PW] 1. Introduction
 
@@ -51,12 +51,8 @@ First of all, we want to extend the prompt, so that the AI answer includes confi
 ### Multiple models, multiple prompts
 Secondly, since AI processing is not deterministic, we call for a bit of statistics to help us. We propose to run each question assessment multiple times, varying both AI model and the prompt. Some prompt strategies may prove more efficient with a given question than others. This way, we can limit the errors to a minimum, by crossing out extremes and extracting averages.
 
-[Graph of model/prompt section of the system? Examples of strategies?]
-
 ### Human approval
 And finally, we want AI to provide its feedback, but still want a human expert to approve it. Our system will present the full set of AI assessments, and leave it for the employee to quickly scan through them to either confirm or reject the result, question by question. 
-
-[Mock-up UI?]
 
 ## [AJ] 5. Let's take a step further
 
@@ -64,8 +60,6 @@ Ok, we took care of the core functionality in our system. We saved a lot of time
 
 ### Prompt accuracy monitoring
 No matter how much we try to prepare efficient and diverse prompts, they will never be perfect. We're only humans after all. Keeping track of confidence levels for each prompt and model will allow us to identify the ones that often give inaccurate responses, flagging them for improvement.
-
-[TODO: What to show here?]
 
 ### Pass-rate analysis
 It's not only the assessment that might be going wrong. It might also be the question itself. We can use AI to keep an eye on how well candidates are doing over time. By analyzing pass rates, we can spot patterns and figure out which questions might be too hard or too easy. This helps us tweak the tests to make sure they're fair and balanced for everyone.
