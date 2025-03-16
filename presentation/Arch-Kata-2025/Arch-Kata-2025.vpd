@@ -7,19 +7,19 @@
             {
                 "title": "Video Track",
                 "type": "MainVideoTrack",
-                "status": 0,
+                "status": 1,
                 "subitems": [
                     {
-                        "title": "Presentation",
+                        "title": "Slides_2",
                         "type": "MediaFileBlock",
-                        "background": 421854463,
+                        "background": 1690959103,
                         "foreground": 1216461823,
                         "status": 0,
-                        "uuid": "{7482A999-AC28-4EBE-8E5B-CE45C3F9ABE6}",
+                        "uuid": "{A666D8B2-B280-4CBD-BA68-91DED41021B0}",
                         "tstart": 0.0,
                         "tduration": 295140.0,
                         "restype": "MediaFileResource",
-                        "resid": "9B75BCAB776D7F2DCEE35C48A358C856",
+                        "resid": "E989ABA7A7B82A5FFFF3D75A5A268627",
                         "attribute": {
                             "version": 0,
                             "type": 3,
@@ -30,7 +30,7 @@
                             "VideoAttribute": {
                                 "version": 0,
                                 "streamIndex": 0,
-                                "trackDuration": 309.162646,
+                                "trackDuration": 306.17597916666667,
                                 "deinterlace": false,
                                 "baseInfoInited": true,
                                 "LensCorrection": {
@@ -58,8 +58,8 @@
                                     "baseData": {
                                         "version": 0,
                                         "valid": false,
-                                        "fileTotalDuration": 309.162646,
-                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileTotalDuration": 306.17597916666667,
+                                        "fileCuttedStart": 7.965,
                                         "fileCuttedDuration": 295.14,
                                         "blockDuration": 295.14
                                     },
@@ -238,8 +238,8 @@
                                     "baseData": {
                                         "version": 0,
                                         "valid": true,
-                                        "fileTotalDuration": 309.162646,
-                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileTotalDuration": 306.17597916666667,
+                                        "fileCuttedStart": 7.965,
                                         "fileCuttedDuration": 295.14,
                                         "blockDuration": 295.14
                                     },
@@ -252,7 +252,7 @@
                                         "centerPosX": 0.5,
                                         "centerPosY": 0.5,
                                         "sizeX": 1.0,
-                                        "sizeY": 0.9629629629629628,
+                                        "sizeY": 0.9629629629629629,
                                         "angle": 0.0
                                     },
                                     "overlay": false,
@@ -267,8 +267,8 @@
                                     "baseData": {
                                         "version": 0,
                                         "valid": false,
-                                        "fileTotalDuration": 309.162646,
-                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileTotalDuration": 306.17597916666667,
+                                        "fileCuttedStart": 7.965,
                                         "fileCuttedDuration": 295.14,
                                         "blockDuration": 295.14
                                     },
@@ -296,14 +296,14 @@
                                     "version": 0,
                                     "baseData": {
                                         "version": 0,
-                                        "fileTotalDuration": 309.162646,
-                                        "fileCuttedStart": 12.198999999999998,
+                                        "fileTotalDuration": 306.17597916666667,
+                                        "fileCuttedStart": 7.965,
                                         "fileCuttedDuration": 295.14,
-                                        "handledTotalDuration": 309.162646,
-                                        "handledCuttedStart": 12.198999999999998,
+                                        "handledTotalDuration": 306.17597916666667,
+                                        "handledCuttedStart": 7.965,
                                         "handledCuttedDuration": 295.14
                                     },
-                                    "curve": "TmM0AQcAAAAAAAAAqN4SQQEAAAAFAAAABwAAAP////8AAMhB+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAP8ffkUAAADg/8OvQAAAAAAAAAAAhSd+D0+Fx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcUE/l/9LHQAAAAAAAAAAAAQEAAAAAAAAcUE/l/9LHQAAAAAAAAAAAl9207P//7z8AAAAAAAAAAKxhG0Mf+61GZnrF4nHU4EAAAAAAAAAAAAAAABBoLuxAAAAAAAAAAAAcUE/l/9LHQAAAAAAAAAAAAAAAAKje8kAAAAAAAAAAAAEAAAAAAAAAAAAAAKje8kAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAB/7phGTSa1RgAAAGjah/hAAAAAAAAAAAAAAADMDgoAQQAAAAAAAAAAAAAAAKje8kAAAAAAAAAAAAAAAACo3gJBAAAAAAAAAAABAAAAAAAAAAAAAACo3gJBAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAATSa1Rk0mtUYAAAA0QbMFQQAAAAAAAAAAAAAAzGJ5CUEAAAAAAAAAAAAAAACo3gJBAAAAAAAAAAAAAAAA/E0MQQAAAAAAAAAAAQAAAAAAAAAAAAAA/E0MQQAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAE0mtUZp4rBGAAAApIURD0EAAAAAAAAAAHh1ak9LNxFBAAAAAAAAAAAAAAAA/E0MQQAAAAAAAAAA2uTOAijCEkEAAAAAAAAAAAEAAAAAAAAA2uTOAijCEkEAAAAAAAAAAFOTZPP//+8/AAAAAAAAAABabsVGAAAAANrkzgIowhJBAAAAAAAAAAAAAPAAKNUSQQAAAAAAAAAA2uTOAijCEkEAAAAAAAAAAAAAAACo3hJBAAAAAAAAAAABAAAAAAAAAAAAAACo3hJBAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAA8f8XRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAA="
+                                    "curve": "TmM0AQcAAAAAAAAA/K8SQQEAAAAFAAAABwAAAP////8AAPBB+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAADwJUUAAAAAAL6kQAAAAAAAAAAAsgUaMXiotEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoCi3u/xy/QAAAAAAAAAAAAQEAAAAAAAAoCi3u/xy/QAAAAAAAAAAA1JoL9///7z8AAAAAAAAAAHxIJ0Wi5bVGuW4uNfSD3kAAAAAAAAAAAAAAAGCHUetAAAAAAAAAAAAoCi3u/xy/QAAAAAAAAAAAAAAAAPyv8kAAAAAAAAAAAAEAAAAAAAAAAAAAAPyv8kAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAK56BGQGazRgAAAAAuS/hAAAAAAAAAAAAAAAAAxsT/QAAAAAAAAAAAAAAAAPyv8kAAAAAAAAAAAAAAAAD8rwJBAAAAAAAAAAABAAAAAAAAAAAAAAD8rwJBAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAQGazRkBms0YAAAAAlX0FQQAAAAAAAAAAAAAAAGE6CUEAAAAAAAAAAAAAAAD8rwJBAAAAAAAAAAAAAAAA+gcMQQAAAAAAAAAAAQAAAAAAAAAAAAAA+gcMQQAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAEBms0ZKO6xGAAAAKOe4DkEAAAAAAAAAALEKUVpn/hBBAAAAAAAAAAAAAAAA+gcMQQAAAAAAAAAATYVgBgSAEkEAAAAAAAAAAAEAAAAAAAAATYVgBgSAEkEAAAAAAAAAACVrpAAAAPA/AAAAAAAAAABWzsBGAAAAAE2FYAYEgBJBAAAAAAAAAAAAANCs/p8SQQAAAAAAAAAATYVgBgSAEkEAAAAAAAAAAAAAAAD8rxJBAAAAAAAAAAABAAAAAAAAAAAAAAD8rxJBAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAM9V/RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAA="
                                 },
                                 "extraSpeed": 1.0,
                                 "audioSpeedRate": false
@@ -330,7 +330,7 @@
             {
                 "title": "Effect Track",
                 "type": "VideoEffectTrack",
-                "status": 1,
+                "status": 0,
                 "tstart": 0.0,
                 "tduration": 1.7976931348623157e308,
                 "context": 0.0,
@@ -937,7 +937,7 @@
                         "foreground": 1216461823,
                         "status": 0,
                         "uuid": "{184C5005-C752-4605-8CDC-9BBBDB7376C5}",
-                        "tstart": 218937.9914965769,
+                        "tstart": 218937.99149657688,
                         "tduration": 17043.92253623472,
                         "restype": "MediaFileResource",
                         "resid": "27FE6BEAD1BDCF749BAF81447255D215",
@@ -986,7 +986,7 @@
                         "foreground": 1216461823,
                         "status": 0,
                         "uuid": "{9A585801-C417-48B3-A5B9-9F932775BDE2}",
-                        "tstart": 258850.77849347765,
+                        "tstart": 258850.7784934776,
                         "tduration": 20988.904064177932,
                         "restype": "MediaFileResource",
                         "resid": "6964C46BA3D7C3913D5675D1ACFDF900",
@@ -1035,7 +1035,7 @@
                         "foreground": 1216461823,
                         "status": 0,
                         "uuid": "{4BD07C66-D14F-4F7F-88C8-98788823DF2C}",
-                        "tstart": 235981.91403281169,
+                        "tstart": 235981.91403281166,
                         "tduration": 22868.86446066607,
                         "restype": "MediaFileResource",
                         "resid": "0D889BF02A8F6EA23BCD51EB0B8A936E",
@@ -1205,8 +1205,8 @@
             "year": 2025,
             "month": 3,
             "day": 16,
-            "hour": 18,
-            "minute": 33,
+            "hour": 19,
+            "minute": 45,
             "second": 40
         },
         "player": {
@@ -1237,6 +1237,14 @@
                 "uuid": "9B75BCAB776D7F2DCEE35C48A358C856",
                 "path": "C:/Users/pawel/Videos/Slides.mp4",
                 "duration": 309.162646
+            },
+            {
+                "title": "Slides_2",
+                "type": "MediaFileResource",
+                "status": 1,
+                "uuid": "E989ABA7A7B82A5FFFF3D75A5A268627",
+                "path": "C:/Users/pawel/Videos/Slides_2.mp4",
+                "duration": 306.17597916666667
             }
         ]
     },
@@ -1347,7 +1355,23 @@
         "title": "Picture",
         "type": "ResourceLists",
         "status": 0,
-        "scapegoat": []
+        "subitems": [
+            {
+                "type": "link",
+                "resid": "B2116D1BCCFE366B99BB64DFF81AD233",
+                "uuid": "{6B5ADCB9-FDDC-421C-B6B6-D50E67FEE5EF}"
+            }
+        ],
+        "scapegoat": [
+            {
+                "title": "demand_chart",
+                "type": "MediaFileResource",
+                "status": 4096,
+                "uuid": "B2116D1BCCFE366B99BB64DFF81AD233",
+                "path": "E:/Projects/arch-kata/resources/presentation/demand_chart.png",
+                "duration": 0.0
+            }
+        ]
     },
     "subtitlelist": {
         "title": "Subtitle",
