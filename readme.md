@@ -97,7 +97,7 @@ The architecture diagram illustrates the automated grading process for Test 1. I
 - Candidate complete Test 1, consisting of multiple-choice and short-answer questions.
 - Responses are stored in a database as ungraded answer
 - Multiple-choice questions are graded through an auto-grading system. **No impact on the current process**
-- Short-answer responses are passed to an [AI Grading](#grading-component) for evaluation. **Human grading process is replaced by new AI Grading**
+- Short-answer responses are passed to an [AI Assisted Grading Component](#ai-assisted-grading-component-architecture) for evaluation. **Human grading process is replaced by new AI Grading**
 - System compiles all graded responses and stores them in a database
 - Candidates are notified via email.
 
@@ -105,7 +105,7 @@ The architecture diagram illustrates the automated grading process for Test 1. I
 
 ![Test 2](./resources/Test-2.png "Test 2")
 
-Test 2 is designed to assess candidates ability to create an architectural solution. Suggested approach modifies the current process by adding evaluation based on [AI Grading](#grading-component)
+Test 2 is designed to assess candidates ability to create an architectural solution. Suggested approach modifies the current process by adding evaluation based on [AI Assisted Grading Component](#ai-assisted-grading-component-architecture)
 
 - Candidate completes Test 2 by designing an architectural solution
 - Solution is uploaded to the Architectural Submissions Database
@@ -116,16 +116,18 @@ Test 2 is designed to assess candidates ability to create an architectural solut
 - If candidate passes, their certification status is updated in the Certification Database
 - Candidate receives his final result via email.
 
-### Grading Component Architecture
+### AI Assisted Grading Component Architecture
 
-![Grading Component](./resources/Grading-component.png "Grading Component")
+![AI Assisted Grading Component](./resources/Grading-component.png "AI Assisted Grading Component")
 
 The AI-Assisted Grading is designed to automate and enhance the grading process by leveraging multiple AI models. This system reduces expert workload.
 
 - Candidate answers are fed into the AI Prompter.
 - AI Prompter formulates queries and requests grading suggestions from multiple AI Models, each with multiple different prompts. Responses are evaluated independently.
+   - AI Prompter takes into consideration AI Grading stats to reduce invalid responses
 - Results are aggregated to generate a final grading suggestion
-- Expert reviews and adjusts AI generated grades if necessary
+- Expert are asked to reviews and adjusts AI generated grades if necessary
+- Grade Review/Approval update statistics for grading correctness
 - Suggestions aggregator is responsible for aggregating stored grades
 
 #### Grading Process
@@ -135,6 +137,16 @@ The AI-Assisted Grading is designed to automate and enhance the grading process 
 - AI Prompter send `N` prompt to `M` AI Models
 - Each model asynchronously send grade suggestion to AI Prompter
 - AI Prompter is responsible for storing data in Grading Suggestion DB
+
+### Test content check Component Architecture
+
+![Test Content Check](./resources/Test-content-checker.png "Test Content Check")
+
+The diagram illustrates the AI-assisted cross-check process for verifying test questions. This component provides test creators with deeper insight into questions quality. See [ADR-0011](./ADR/ADR%200011%20-%20AI-assisted%20cross%20check%20for%20test%20content%20updates.md) for further details.
+
+- Component uses multiple AI models with different prompts to generate diverse answers.
+- AI Models answer test questions, and these responses are submitted to [AI Assisted Grading Component](#ai-assisted-grading-component-architecture) for evaluation
+- The Question Checker retrieves question statistics from the [AI Assisted Grading Component](#ai-assisted-grading-component-architecture)
 
 ## ✍️ Architecture Decision Records
 
