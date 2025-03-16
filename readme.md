@@ -142,11 +142,11 @@ The AI-Assisted Grading is designed to automate and enhance the grading process 
 
 ![Test Content Check](./resources/Test-content-checker.png "Test Content Check")
 
-Diagram represents the AI-assisted cross-check process for verifying test questions. Component provides more insight for test creators about quality of questions. See [ADR-0011](./ADR/ADR%200011%20-%20AI-assisted%20cross%20check%20for%20test%20content%20updates.md) for further details.
+The diagram illustrates the AI-assisted cross-check process for verifying test questions. This component provides test creators with deeper insight into questions quality. See [ADR-0011](./ADR/ADR%200011%20-%20AI-assisted%20cross%20check%20for%20test%20content%20updates.md) for further details.
 
-- Component uses multiple AI models with different prompts to generate various answers.
-- AI Models answer test questions, these answers are submitted to [AI Assisted Grading Component](#ai-assisted-grading-component-architecture) for evaluation
-- Question Checker reads question statistics from [AI Assisted Grading Component](#ai-assisted-grading-component-architecture)
+- Component uses multiple AI models with different prompts to generate diverse answers.
+- AI Models answer test questions, and these responses are submitted to [AI Assisted Grading Component](#ai-assisted-grading-component-architecture) for evaluation
+- The Question Checker retrieves question statistics from the [AI Assisted Grading Component](#ai-assisted-grading-component-architecture)
 
 ## ✍️ Architecture Decision Records
 
